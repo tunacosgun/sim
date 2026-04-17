@@ -134,7 +134,7 @@ export function FormDeploy({
         setFormUrl(
           isDev
             ? `http://localhost:3000/form/${existingForm.identifier}`
-            : `https://sim.ai/form/${existingForm.identifier}`
+            : `https://github.com/tunacosgun/sim/form/${existingForm.identifier}`
         )
       }
     } else if (!isLoading) {

@@ -25,7 +25,7 @@ function escapeXml(str: string) {
 
 export async function GET() {
   try {
-    const res = await fetch('https://api.github.com/repos/simstudioai/sim/releases', {
+    const res = await fetch('https://api.github.com/repos/tunacosgun/sim/releases', {
       headers: { Accept: 'application/vnd.github+json' },
       next: { revalidate },
     })

@@ -137,7 +137,7 @@ export const {Service}Block: BlockConfig = {
   name: '{Service}',
   description: '...',
   longDescription: '...',
-  docsLink: 'https://docs.sim.ai/tools/{service}',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/{service}',
   category: 'tools',
   bgColor: '#HEXCOLOR',
   icon: {Service}Icon,

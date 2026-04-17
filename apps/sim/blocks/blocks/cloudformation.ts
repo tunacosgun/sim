@@ -28,7 +28,7 @@ export const CloudFormationBlock: BlockConfig<
   category: 'tools',
   integrationType: IntegrationType.DeveloperTools,
   tags: ['cloud'],
-  docsLink: 'https://docs.sim.ai/tools/cloudformation',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/cloudformation',
   bgColor: 'linear-gradient(45deg, #B0084D 0%, #FF4F8B 100%)',
   icon: CloudFormationIcon,
   subBlocks: [

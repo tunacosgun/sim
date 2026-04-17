@@ -12,7 +12,7 @@ export const SearchBlock: BlockConfig = {
   category: 'tools',
   integrationType: IntegrationType.Search,
   tags: ['web-scraping', 'seo'],
-  docsLink: 'https://docs.sim.ai/tools/search',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/search',
   subBlocks: [
     {
       id: 'query',

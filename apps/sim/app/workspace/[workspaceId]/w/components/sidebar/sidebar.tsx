@@ -1175,7 +1175,7 @@ export const Sidebar = memo(function Sidebar() {
   const handleOpenHelpFromMenu = useCallback(() => setIsHelpModalOpen(true), [])
 
   const handleOpenDocs = useCallback(() => {
-    window.open('https://docs.sim.ai', '_blank', 'noopener,noreferrer')
+    window.open('https://github.com/tunacosgun/sim', '_blank', 'noopener,noreferrer')
     captureEvent(posthog, 'docs_opened', { source: 'help_menu' })
   }, [posthog])
 

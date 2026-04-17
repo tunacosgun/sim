@@ -12,7 +12,7 @@ export const CalendlyBlock: BlockConfig<ToolResponse> = {
   triggerAllowed: true,
   longDescription:
     'Integrate Calendly into your workflow. Manage event types, scheduled events, invitees, and webhooks. Can also trigger workflows based on Calendly webhook events (invitee scheduled, invitee canceled, routing form submitted). Requires Personal Access Token.',
-  docsLink: 'https://docs.sim.ai/tools/calendly',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/calendly',
   category: 'tools',
   integrationType: IntegrationType.Productivity,
   tags: ['scheduling', 'calendar', 'meeting'],

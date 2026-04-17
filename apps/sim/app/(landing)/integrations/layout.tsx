@@ -12,7 +12,7 @@ export default async function IntegrationsLayout({ children }: { children: React
     name: 'Sim',
     url,
     logo: `${url}/logo/primary/small.png`,
-    sameAs: ['https://x.com/simdotai'],
+    sameAs: ['https://x.com/tunacosgun_dev'],
   }
 
   const websiteJsonLd = {

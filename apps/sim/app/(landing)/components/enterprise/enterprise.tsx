@@ -68,7 +68,7 @@ function TrustStrip() {
     <div className='mx-6 mt-4 grid grid-cols-1 overflow-hidden rounded-lg border border-[var(--landing-bg-elevated)] sm:grid-cols-3 md:mx-8'>
       {/* SOC 2 */}
       <Link
-        href='https://app.vanta.com/sim.ai/trust/v35ia0jil4l7dteqjgaktn'
+        href='https://app.vanta.com/github.com/tunacosgun/sim/trust/v35ia0jil4l7dteqjgaktn'
         target='_blank'
         rel='noopener noreferrer'
         className='group flex items-center gap-3 border-[var(--landing-bg-elevated)] border-b px-4 py-3.5 transition-colors hover:bg-[#212121] sm:border-r sm:border-b-0'
@@ -93,7 +93,7 @@ function TrustStrip() {
 
       {/* Open Source -- center */}
       <Link
-        href='https://github.com/simstudioai/sim'
+        href='https://github.com/tunacosgun/sim'
         target='_blank'
         rel='noopener noreferrer'
         className='group flex items-center gap-3 border-[var(--landing-bg-elevated)] border-b px-4 py-3.5 transition-colors hover:bg-[#212121] sm:border-r sm:border-b-0'

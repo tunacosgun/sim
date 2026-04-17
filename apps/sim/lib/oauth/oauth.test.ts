@@ -322,7 +322,7 @@ describe('OAuth Token Refresh', () => {
         { headers: Record<string, string>; body: string },
       ]
       expect(requestOptions.headers['User-Agent']).toBe(
-        'sim-studio/1.0 (https://github.com/simstudioai/sim)'
+        'sim-studio/1.0 (https://github.com/tunacosgun/sim)'
       )
     })
   })

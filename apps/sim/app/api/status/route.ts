@@ -43,7 +43,7 @@ export async function GET() {
       })
     }
 
-    const response = await fetch('https://status.sim.ai/api/v1/summary', {
+    const response = await fetch('https://status.github.com/tunacosgun/sim/api/v1/summary', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -62,7 +62,7 @@ export async function GET() {
     const statusResponse: StatusResponse = {
       status,
       message,
-      url: data.page_url || 'https://status.sim.ai',
+      url: data.page_url || 'https://status.github.com/tunacosgun/sim',
       lastUpdated: new Date().toISOString(),
     }
 
@@ -83,7 +83,7 @@ export async function GET() {
     const errorResponse: StatusResponse = {
       status: 'error',
       message: 'Status Unknown',
-      url: 'https://status.sim.ai',
+      url: 'https://status.github.com/tunacosgun/sim',
       lastUpdated: new Date().toISOString(),
     }
 

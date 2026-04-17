@@ -38,6 +38,6 @@ export default async function Image({ params }: { params: Promise<{ provider: st
         ? `${formatTokenCount(largestContextModel.contextWindow)} context`
         : 'Context tracked',
     ],
-    domainLabel: `sim.ai${provider.href}`,
+    domainLabel: `github.com/tunacosgun/sim${provider.href}`,
   })
 }

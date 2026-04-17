@@ -10,7 +10,7 @@ function formatStarCount(num: number): string {
 export async function GET() {
   try {
     const token = env.GITHUB_TOKEN
-    const response = await fetch('https://api.github.com/repos/simstudioai/sim', {
+    const response = await fetch('https://api.github.com/repos/tunacosgun/sim', {
       headers: {
         Accept: 'application/vnd.github+json',
         'X-GitHub-Api-Version': '2022-11-28',

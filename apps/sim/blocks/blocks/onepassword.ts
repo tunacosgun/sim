@@ -7,7 +7,7 @@ export const OnePasswordBlock: BlockConfig = {
   description: 'Manage secrets and items in 1Password vaults',
   longDescription:
     'Access and manage secrets stored in 1Password vaults using the Connect API or Service Account SDK. List vaults, retrieve items with their fields and secrets, create new items, update existing ones, delete items, and resolve secret references.',
-  docsLink: 'https://docs.sim.ai/tools/onepassword',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/onepassword',
   category: 'tools',
   integrationType: IntegrationType.Security,
   tags: ['secrets-management', 'identity'],

@@ -9,7 +9,7 @@ export const SerperBlock: BlockConfig<SearchResponse> = {
   description: 'Search the web using Serper',
   authMode: AuthMode.ApiKey,
   longDescription: 'Integrate Serper into the workflow. Can search the web.',
-  docsLink: 'https://docs.sim.ai/tools/serper',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/serper',
   category: 'tools',
   integrationType: IntegrationType.Search,
   tags: ['web-scraping', 'seo'],

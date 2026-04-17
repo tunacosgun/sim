@@ -98,7 +98,7 @@ export function FooterCTA() {
 
       <div className='mt-8 flex gap-2'>
         <a
-          href='https://docs.sim.ai'
+          href='https://github.com/tunacosgun/sim'
           target='_blank'
           rel='noopener noreferrer'
           className={cn(
@@ -109,7 +109,7 @@ export function FooterCTA() {
             trackLandingCta({
               label: 'Docs',
               section: 'footer_cta',
-              destination: 'https://docs.sim.ai',
+              destination: 'https://github.com/tunacosgun/sim',
             })
           }
         >

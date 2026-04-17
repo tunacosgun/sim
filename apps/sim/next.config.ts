@@ -366,17 +366,17 @@ const nextConfig: NextConfig = {
     redirects.push(
       {
         source: '/discord',
-        destination: 'https://discord.gg/Hr4UWYEcTT',
+        destination: 'https://',
         permanent: false,
       },
       {
         source: '/x',
-        destination: 'https://x.com/simdotai',
+        destination: 'https://x.com/tunacosgun_dev',
         permanent: false,
       },
       {
         source: '/github',
-        destination: 'https://github.com/simstudioai/sim',
+        destination: 'https://github.com/tunacosgun/sim',
         permanent: false,
       },
       {
@@ -395,12 +395,12 @@ const nextConfig: NextConfig = {
     redirects.push(
       {
         source: '/building/:path*',
-        destination: 'https://www.sim.ai/blog/:path*',
+        destination: 'https://www.github.com/tunacosgun/sim/blog/:path*',
         permanent: true,
       },
       {
         source: '/studio/:path*',
-        destination: 'https://www.sim.ai/blog/:path*',
+        destination: 'https://www.github.com/tunacosgun/sim/blog/:path*',
         permanent: true,
       }
     )

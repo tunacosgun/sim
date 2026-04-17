@@ -20,7 +20,7 @@ export const isTest = env.NODE_ENV === 'test'
 
 /**
  * Is this the hosted version of the application.
- * True for sim.ai and any subdomain of sim.ai (e.g. staging.sim.ai, dev.sim.ai).
+ * True for github.com/tunacosgun/sim and any subdomain of github.com/tunacosgun/sim (e.g. staging.github.com/tunacosgun/sim, dev.github.com/tunacosgun/sim).
  */
 const appUrl = getEnv('NEXT_PUBLIC_APP_URL')
 let appHostname = ''
@@ -29,7 +29,7 @@ try {
 } catch {
   // invalid URL — isHosted stays false
 }
-export const isHosted = appHostname === 'sim.ai' || appHostname.endsWith('.sim.ai')
+export const isHosted = appHostname === 'github.com/tunacosgun/sim' || appHostname.endsWith('.github.com/tunacosgun/sim')
 
 /**
  * Is billing enforcement enabled

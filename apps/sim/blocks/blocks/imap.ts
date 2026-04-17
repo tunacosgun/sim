@@ -15,7 +15,7 @@ export const ImapBlock: BlockConfig = {
   bgColor: '#6366F1',
   icon: MailServerIcon,
   triggerAllowed: true,
-  docsLink: 'https://docs.sim.ai/tools/imap',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/imap',
   hideFromToolbar: false,
   subBlocks: [...getTrigger('imap_poller').subBlocks],
   tools: {

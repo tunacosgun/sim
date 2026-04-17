@@ -743,7 +743,7 @@ async function writeIntegrationsJson(iconMapping: Record<string, string>): Promi
         const triggers: TriggerInfo[] = triggerIds
           .map((id) => triggerRegistry.get(id))
           .filter((t): t is TriggerInfo => t !== undefined)
-        const docsUrl = (config as any).docsLink || `https://docs.sim.ai/tools/${baseType}`
+        const docsUrl = (config as any).docsLink || `https://github.com/tunacosgun/sim/tools/${baseType}`
 
         const slug = config.name
           .toLowerCase()
@@ -939,7 +939,7 @@ function extractBlockConfigFromContent(
     const docsLink =
       extractStringPropertyFromContent(blockContent, 'docsLink', true) ||
       baseConfig?.docsLink ||
-      `https://docs.sim.ai/tools/${stripVersionSuffix(blockType)}`
+      `https://github.com/tunacosgun/sim/tools/${stripVersionSuffix(blockType)}`
 
     const integrationType =
       extractEnumPropertyFromContent(blockContent, 'integrationType') ||

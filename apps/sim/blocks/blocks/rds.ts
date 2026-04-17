@@ -9,7 +9,7 @@ export const RDSBlock: BlockConfig<RdsResponse | RdsIntrospectResponse> = {
   description: 'Connect to Amazon RDS via Data API',
   longDescription:
     'Integrate Amazon RDS Aurora Serverless into the workflow using the Data API. Can query, insert, update, delete, and execute raw SQL without managing database connections.',
-  docsLink: 'https://docs.sim.ai/tools/rds',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/rds',
   category: 'tools',
   integrationType: IntegrationType.Databases,
   tags: ['cloud', 'data-warehouse'],

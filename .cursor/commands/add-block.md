@@ -22,7 +22,7 @@ export const {ServiceName}Block: BlockConfig = {
   name: '{Service Name}',               // Human readable
   description: 'Brief description',     // One sentence
   longDescription: 'Detailed description for docs',
-  docsLink: 'https://docs.sim.ai/tools/{service}',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/{service}',
   category: 'tools',                    // 'tools' | 'blocks' | 'triggers'
   integrationType: IntegrationType.X,   // Primary category (see IntegrationType enum)
   tags: ['oauth', 'api'],              // Cross-cutting tags (see IntegrationTag type)
@@ -634,7 +634,7 @@ export const ServiceBlock: BlockConfig = {
   name: 'Service',
   description: 'Integrate with Service API',
   longDescription: 'Full description for documentation...',
-  docsLink: 'https://docs.sim.ai/tools/service',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/service',
   category: 'tools',
   integrationType: IntegrationType.DeveloperTools,
   tags: ['oauth', 'api'],

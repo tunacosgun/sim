@@ -10,7 +10,7 @@ export const BoxBlock: BlockConfig = {
   description: 'Manage files, folders, and e-signatures with Box',
   longDescription:
     'Integrate Box into your workflow to manage files, folders, and e-signatures. Upload and download files, search content, create folders, send documents for e-signature, track signing status, and more.',
-  docsLink: 'https://docs.sim.ai/tools/box',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/box',
   category: 'tools',
   integrationType: IntegrationType.FileStorage,
   tags: ['cloud', 'content-management', 'e-signatures'],

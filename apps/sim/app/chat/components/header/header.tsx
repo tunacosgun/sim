@@ -49,7 +49,7 @@ export function ChatHeader({ chatConfig, starCount }: ChatHeaderProps) {
       {!brand.logoUrl && (
         <div className='flex items-center gap-4'>
           <a
-            href='https://github.com/simstudioai/sim'
+            href='https://github.com/tunacosgun/sim'
             target='_blank'
             rel='noopener noreferrer'
             className='flex items-center gap-2 text-[var(--landing-text-muted)] text-md transition-colors hover:text-[var(--landing-text)]'
@@ -61,7 +61,7 @@ export function ChatHeader({ chatConfig, starCount }: ChatHeaderProps) {
           {/* Only show Sim logo if no custom branding is set */}
 
           <Link
-            href='https://sim.ai'
+            href='https://github.com/tunacosgun/sim'
             target='_blank'
             rel='noopener noreferrer'
             aria-label='Sim home'

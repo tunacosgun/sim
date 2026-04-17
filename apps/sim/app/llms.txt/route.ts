@@ -19,9 +19,9 @@ Sim lets teams create agents visually with the workflow builder, conversationall
 
 ## Documentation
 
-- [Documentation](https://docs.sim.ai): Product guides and technical reference
-- [Quickstart](https://docs.sim.ai/quickstart): Fastest path to getting started
-- [API Reference](https://docs.sim.ai/api): API documentation
+- [Documentation](https://github.com/tunacosgun/sim): Product guides and technical reference
+- [Quickstart](https://github.com/tunacosgun/sim/quickstart): Fastest path to getting started
+- [API Reference](https://github.com/tunacosgun/sim/api): API documentation
 
 ## Key Concepts
 
@@ -52,8 +52,8 @@ Sim lets teams create agents visually with the workflow builder, conversationall
 
 ## Additional Links
 
-- [GitHub Repository](https://github.com/simstudioai/sim): Open-source codebase
-- [Docs](https://docs.sim.ai): Canonical documentation source
+- [GitHub Repository](https://github.com/tunacosgun/sim): Open-source codebase
+- [Docs](https://github.com/tunacosgun/sim): Canonical documentation source
 - [Terms of Service](${baseUrl}/terms): Legal terms
 - [Privacy Policy](${baseUrl}/privacy): Data handling practices
 - [Sitemap](${baseUrl}/sitemap.xml): Public URL inventory

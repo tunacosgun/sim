@@ -10,7 +10,7 @@ export const XBlock: BlockConfig = {
   authMode: AuthMode.OAuth,
   longDescription:
     'Integrate X into the workflow. Search tweets, manage bookmarks, follow/block/mute users, like and retweet, view trends, and more.',
-  docsLink: 'https://docs.sim.ai/tools/x',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/x',
   category: 'tools',
   integrationType: IntegrationType.Communication,
   tags: ['marketing', 'messaging'],

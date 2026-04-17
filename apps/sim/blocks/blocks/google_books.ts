@@ -9,7 +9,7 @@ export const GoogleBooksBlock: BlockConfig = {
   authMode: AuthMode.ApiKey,
   longDescription:
     'Search for books using the Google Books API. Find volumes by title, author, ISBN, or keywords, and retrieve detailed information about specific books including descriptions, ratings, and publication details.',
-  docsLink: 'https://docs.sim.ai/tools/google_books',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/google_books',
   category: 'tools',
   integrationType: IntegrationType.Search,
   tags: ['google-workspace', 'knowledge-base', 'content-management'],

@@ -16,7 +16,7 @@ export const DiscordBlock: BlockConfig<DiscordResponse> = {
   tags: ['messaging', 'webhooks', 'automation'],
   bgColor: '#5865F2',
   icon: DiscordIcon,
-  docsLink: 'https://docs.sim.ai/tools/discord',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/discord',
   subBlocks: [
     {
       id: 'operation',

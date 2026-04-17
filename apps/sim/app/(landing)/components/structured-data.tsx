@@ -42,10 +42,10 @@ export default function StructuredData() {
         },
         image: { '@id': `${SITE_URL}/#logo` },
         sameAs: [
-          'https://x.com/simdotai',
-          'https://github.com/simstudioai/sim',
-          'https://www.linkedin.com/company/simstudioai/',
-          'https://discord.gg/Hr4UWYEcTT',
+          'https://x.com/tunacosgun_dev',
+          'https://github.com/tunacosgun/sim',
+          'https://www.linkedin.com/in/tunacosgun/',
+          'https://',
         ],
         contactPoint: {
           '@type': 'ContactPoint',
@@ -176,7 +176,7 @@ export default function StructuredData() {
       {
         '@type': 'SoftwareSourceCode',
         '@id': `${SITE_URL}/#source`,
-        codeRepository: 'https://github.com/simstudioai/sim',
+        codeRepository: 'https://github.com/tunacosgun/sim',
         programmingLanguage: ['TypeScript', 'Python'],
         runtimePlatform: 'Node.js',
         license: 'https://opensource.org/licenses/Apache-2.0',
@@ -239,7 +239,7 @@ export default function StructuredData() {
             name: 'Is Sim open source?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'Yes. Sim is fully open source under the Apache 2.0 license. The source code is available on GitHub at github.com/simstudioai/sim. You can self-host Sim or use the hosted version at sim.ai.',
+              text: 'Yes. Sim is fully open source under the Apache 2.0 license. The source code is available on GitHub at github.com/tunacosgun/sim. You can self-host Sim or use the hosted version at github.com/tunacosgun/sim.',
             },
           },
           {
@@ -255,7 +255,7 @@ export default function StructuredData() {
             name: 'Can I self-host Sim?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'Yes. Sim can be self-hosted using Docker. Documentation is available at docs.sim.ai/self-hosting. Enterprise customers can also get dedicated infrastructure and on-premise deployment.',
+              text: 'Yes. Sim can be self-hosted using Docker. Documentation is available at github.com/tunacosgun/sim/self-hosting. Enterprise customers can also get dedicated infrastructure and on-premise deployment.',
             },
           },
         ],

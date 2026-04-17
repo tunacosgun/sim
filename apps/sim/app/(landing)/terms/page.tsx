@@ -299,10 +299,10 @@ export default function TermsOfService() {
           You have the right to opt out of the provisions of this Arbitration Agreement by sending a
           timely written notice of your decision to opt out to:{' '}
           <Link
-            href='mailto:legal@sim.ai'
+            href='mailto:legal@github.com/tunacosgun/sim'
             className='text-[var(--landing-text)] underline hover:text-white'
           >
-            legal@sim.ai{' '}
+            legal@github.com/tunacosgun/sim{' '}
           </Link>
           within 30 days after first becoming subject to this Arbitration Agreement.
         </p>
@@ -349,10 +349,10 @@ export default function TermsOfService() {
         <p>
           Our Copyright Agent can be reached at:{' '}
           <Link
-            href='mailto:copyright@sim.ai'
+            href='mailto:copyright@github.com/tunacosgun/sim'
             className='text-[var(--landing-text)] underline hover:text-white'
           >
-            copyright@sim.ai
+            copyright@github.com/tunacosgun/sim
           </Link>
         </p>
       </section>
@@ -362,10 +362,10 @@ export default function TermsOfService() {
         <p>
           If you have any questions about these Terms, please contact us at:{' '}
           <Link
-            href='mailto:legal@sim.ai'
+            href='mailto:legal@github.com/tunacosgun/sim'
             className='text-[var(--landing-text)] underline hover:text-white'
           >
-            legal@sim.ai
+            legal@github.com/tunacosgun/sim
           </Link>
         </p>
       </section>

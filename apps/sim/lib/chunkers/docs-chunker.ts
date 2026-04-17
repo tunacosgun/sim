@@ -33,7 +33,7 @@ export class DocsChunker {
       minCharactersPerChunk: options.minCharactersPerChunk ?? 1,
       chunkOverlap: options.chunkOverlap ?? 50,
     })
-    this.baseUrl = options.baseUrl ?? 'https://docs.sim.ai'
+    this.baseUrl = options.baseUrl ?? 'https://github.com/tunacosgun/sim'
   }
 
   async chunkAllDocs(docsPath: string): Promise<DocChunk[]> {

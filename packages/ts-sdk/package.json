@@ -53,11 +53,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/simstudioai/sim.git",
+    "url": "https://github.com/tunacosgun/sim.git",
     "directory": "packages/ts-sdk"
   },
-  "homepage": "https://sim.ai",
+  "homepage": "https://github.com/tunacosgun/sim",
   "bugs": {
-    "url": "https://github.com/simstudioai/sim/issues"
+    "url": "https://github.com/tunacosgun/sim/issues"
   }
 }

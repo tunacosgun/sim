@@ -2,7 +2,7 @@ import { getEnv } from '@/lib/core/config/env'
 import { isProd } from '@/lib/core/config/feature-flags'
 
 /** Canonical base URL for the public-facing marketing site. No trailing slash. */
-export const SITE_URL = 'https://www.sim.ai'
+export const SITE_URL = 'https://www.github.com/tunacosgun/sim'
 
 function hasHttpProtocol(url: string): boolean {
   return /^https?:\/\//i.test(url)
@@ -72,7 +72,7 @@ export function ensureAbsoluteUrl(pathOrUrl: string): string {
 
 /**
  * Returns just the domain and port part of the application URL
- * @returns The domain with port if applicable (e.g., 'localhost:3000' or 'sim.ai')
+ * @returns The domain with port if applicable (e.g., 'localhost:3000' or 'github.com/tunacosgun/sim')
  */
 export function getBaseDomain(): string {
   try {
@@ -83,20 +83,20 @@ export function getBaseDomain(): string {
     try {
       return new URL(fallbackUrl).host
     } catch {
-      return isProd ? 'sim.ai' : 'localhost:3000'
+      return isProd ? 'github.com/tunacosgun/sim' : 'localhost:3000'
     }
   }
 }
 
 /**
  * Returns the domain for email addresses, stripping www subdomain for Resend compatibility
- * @returns The email domain (e.g., 'sim.ai' instead of 'www.sim.ai')
+ * @returns The email domain (e.g., 'github.com/tunacosgun/sim' instead of 'www.github.com/tunacosgun/sim')
  */
 export function getEmailDomain(): string {
   try {
     const baseDomain = getBaseDomain()
     return baseDomain.startsWith('www.') ? baseDomain.substring(4) : baseDomain
   } catch (_e) {
-    return isProd ? 'sim.ai' : 'localhost:3000'
+    return isProd ? 'github.com/tunacosgun/sim' : 'localhost:3000'
   }
 }

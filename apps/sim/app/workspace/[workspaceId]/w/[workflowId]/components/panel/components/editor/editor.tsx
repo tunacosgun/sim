@@ -302,7 +302,7 @@ export function Editor() {
    */
   const handleOpenDocs = useCallback(() => {
     const docsLink = isSubflow ? subflowConfig?.docsLink : blockConfig?.docsLink
-    window.open(docsLink || 'https://docs.sim.ai/quick-reference', '_blank', 'noopener,noreferrer')
+    window.open(docsLink || 'https://github.com/tunacosgun/sim/quick-reference', '_blank', 'noopener,noreferrer')
     captureEvent(posthog, 'docs_opened', {
       source: 'editor_button',
       block_type: currentBlock?.type,

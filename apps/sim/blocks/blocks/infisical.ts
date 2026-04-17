@@ -9,7 +9,7 @@ export const InfisicalBlock: BlockConfig<InfisicalResponse> = {
   description: 'Manage secrets with Infisical',
   longDescription:
     'Integrate Infisical into your workflow. List, get, create, update, and delete secrets across project environments.',
-  docsLink: 'https://docs.sim.ai/tools/infisical',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/infisical',
   category: 'tools',
   integrationType: IntegrationType.Security,
   tags: ['secrets-management'],

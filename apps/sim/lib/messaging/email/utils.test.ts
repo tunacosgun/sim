@@ -17,7 +17,7 @@ import {
 // Set up mocks at module level - these will be used for all tests in this file
 vi.mock('@/lib/core/config/env', () =>
   createEnvMock({
-    FROM_EMAIL_ADDRESS: 'Sim <noreply@sim.ai>',
+    FROM_EMAIL_ADDRESS: 'Sim <noreply@github.com/tunacosgun/sim>',
     EMAIL_DOMAIN: 'example.com',
   })
 )
@@ -29,7 +29,7 @@ vi.mock('@/lib/core/utils/urls', () => ({
 describe('getFromEmailAddress', () => {
   it('should return the configured FROM_EMAIL_ADDRESS', () => {
     const result = getFromEmailAddress()
-    expect(result).toBe('Sim <noreply@sim.ai>')
+    expect(result).toBe('Sim <noreply@github.com/tunacosgun/sim>')
   })
 
   it('should return a valid email format', () => {

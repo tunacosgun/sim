@@ -140,7 +140,7 @@ The following table lists the configurable parameters and their default values.
 | Parameter | Description | Default |
 |-----------|-------------|---------|
 | `global.imageRegistry` | Global Docker image registry | `"ghcr.io"` |
-| `global.useRegistryForAllImages` | Use custom registry for all images (not just simstudioai/*) | `false` |
+| `global.useRegistryForAllImages` | Use custom registry for all images (not just tunacosgun/*) | `false` |
 | `global.imagePullSecrets` | Global Docker registry secret names | `[]` |
 | `global.storageClass` | Global storage class for PVCs | `""` |
 | `global.commonLabels` | Common labels to add to all resources | `{}` |
@@ -151,7 +151,7 @@ The following table lists the configurable parameters and their default values.
 |-----------|-------------|---------|
 | `app.enabled` | Enable the main application | `true` |
 | `app.replicaCount` | Number of app replicas | `1` |
-| `app.image.repository` | App image repository | `simstudioai/sim` |
+| `app.image.repository` | App image repository | `tunacosgun/sim` |
 | `app.image.tag` | App image tag | `latest` |
 | `app.image.pullPolicy` | App image pull policy | `Always` |
 | `app.resources` | App resource limits and requests | See values.yaml |
@@ -171,7 +171,7 @@ The following table lists the configurable parameters and their default values.
 |-----------|-------------|---------|
 | `realtime.enabled` | Enable the realtime service | `true` |
 | `realtime.replicaCount` | Number of realtime replicas | `1` |
-| `realtime.image.repository` | Realtime image repository | `simstudioai/realtime` |
+| `realtime.image.repository` | Realtime image repository | `tunacosgun/realtime` |
 | `realtime.image.tag` | Realtime image tag | `latest` |
 | `realtime.image.pullPolicy` | Realtime image pull policy | `Always` |
 | `realtime.resources` | Realtime resource limits and requests | See values.yaml |
@@ -309,7 +309,7 @@ The following table lists the configurable parameters and their default values.
 | Parameter | Description | Default |
 |-----------|-------------|---------|
 | `migrations.enabled` | Enable database migrations job | `true` |
-| `migrations.image.repository` | Migrations image repository | `simstudioai/migrations` |
+| `migrations.image.repository` | Migrations image repository | `tunacosgun/migrations` |
 | `migrations.image.tag` | Migrations image tag | `latest` |
 | `migrations.image.pullPolicy` | Migrations image pull policy | `Always` |
 | `migrations.resources` | Migrations resource limits and requests | See values.yaml |
@@ -813,6 +813,6 @@ kubectl logs job/<release>-migrations
 
 ## Support
 
-- Documentation: https://docs.sim.ai
-- GitHub Issues: https://github.com/simstudioai/sim/issues
-- Discord: https://discord.gg/Hr4UWYEcTT
+- Documentation: https://github.com/tunacosgun/sim
+- GitHub Issues: https://github.com/tunacosgun/sim/issues
+- Discord: https://

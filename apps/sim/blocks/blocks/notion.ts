@@ -14,7 +14,7 @@ export const NotionBlock: BlockConfig<NotionResponse> = {
   authMode: AuthMode.OAuth,
   longDescription:
     'Integrate with Notion into the workflow. Can read page, read database, create page, create database, append content, query database, and search workspace.',
-  docsLink: 'https://docs.sim.ai/tools/notion',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/notion',
   category: 'tools',
   integrationType: IntegrationType.Documents,
   tags: ['note-taking', 'knowledge-base', 'content-management'],
@@ -430,7 +430,7 @@ export const NotionV2Block: BlockConfig<any> = {
   authMode: AuthMode.OAuth,
   longDescription:
     'Integrate with Notion into the workflow. Can read page, read database, create page, create database, append content, query database, and search workspace.',
-  docsLink: 'https://docs.sim.ai/tools/notion',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/notion',
   category: 'tools',
   integrationType: IntegrationType.Documents,
   tags: ['note-taking', 'knowledge-base', 'content-management'],

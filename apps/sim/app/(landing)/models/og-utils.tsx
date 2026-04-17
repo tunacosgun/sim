@@ -74,7 +74,7 @@ export async function createModelsOgImage({
   title,
   subtitle,
   pills = [],
-  domainLabel = 'sim.ai/models',
+  domainLabel = 'github.com/tunacosgun/sim/models',
 }: ModelsOgImageProps) {
   const text = `${eyebrow}${title}${subtitle}${pills.join('')}${domainLabel}`
   const [regularFontData, mediumFontData] = await Promise.all([

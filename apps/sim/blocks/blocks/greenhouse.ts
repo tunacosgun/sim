@@ -9,7 +9,7 @@ export const GreenhouseBlock: BlockConfig<GreenhouseResponse> = {
   description: 'Manage candidates, jobs, and applications in Greenhouse',
   longDescription:
     'Integrate Greenhouse into the workflow. List and retrieve candidates, jobs, applications, users, departments, offices, and job stages from your Greenhouse ATS account.',
-  docsLink: 'https://docs.sim.ai/tools/greenhouse',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/greenhouse',
   category: 'tools',
   integrationType: IntegrationType.HR,
   tags: ['hiring'],

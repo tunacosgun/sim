@@ -20,11 +20,11 @@ import {
 const emailTemplates = {
   // Auth emails
   otp: () => renderOTPEmail('123456', 'user@example.com', 'email-verification'),
-  'reset-password': () => renderPasswordResetEmail('John', 'https://sim.ai/reset?token=abc123'),
+  'reset-password': () => renderPasswordResetEmail('John', 'https://github.com/tunacosgun/sim/reset?token=abc123'),
   welcome: () => renderWelcomeEmail('John'),
 
   // Invitation emails
-  invitation: () => renderInvitationEmail('Jane Doe', 'Acme Corp', 'https://sim.ai/invite/abc123'),
+  invitation: () => renderInvitationEmail('Jane Doe', 'Acme Corp', 'https://github.com/tunacosgun/sim/invite/abc123'),
   'batch-invitation': () =>
     renderBatchInvitationEmail(
       'Jane Doe',
@@ -34,13 +34,13 @@ const emailTemplates = {
         { workspaceId: 'ws_123', workspaceName: 'Engineering', permission: 'write' },
         { workspaceId: 'ws_456', workspaceName: 'Design', permission: 'read' },
       ],
-      'https://sim.ai/invite/abc123'
+      'https://github.com/tunacosgun/sim/invite/abc123'
     ),
   'workspace-invitation': () =>
     renderWorkspaceInvitationEmail(
       'John Smith',
       'Engineering Team',
-      'https://sim.ai/workspace/invite/abc123'
+      'https://github.com/tunacosgun/sim/workspace/invite/abc123'
     ),
 
   // Support emails
@@ -54,7 +54,7 @@ const emailTemplates = {
       percentUsed: 75,
       currentUsage: 15,
       limit: 20,
-      ctaLink: 'https://sim.ai/settings/billing',
+      ctaLink: 'https://github.com/tunacosgun/sim/settings/billing',
     }),
   'enterprise-subscription': () => renderEnterpriseSubscriptionEmail('John'),
   'free-tier-upgrade': () =>
@@ -63,19 +63,19 @@ const emailTemplates = {
       percentUsed: 90,
       currentUsage: 9,
       limit: 10,
-      upgradeLink: 'https://sim.ai/settings/billing',
+      upgradeLink: 'https://github.com/tunacosgun/sim/settings/billing',
     }),
   'plan-welcome-pro': () =>
     renderPlanWelcomeEmail({
       planName: 'Pro',
       userName: 'John',
-      loginLink: 'https://sim.ai/login',
+      loginLink: 'https://github.com/tunacosgun/sim/login',
     }),
   'plan-welcome-team': () =>
     renderPlanWelcomeEmail({
       planName: 'Team',
       userName: 'John',
-      loginLink: 'https://sim.ai/login',
+      loginLink: 'https://github.com/tunacosgun/sim/login',
     }),
   'credit-purchase': () =>
     renderCreditPurchaseEmail({
@@ -88,7 +88,7 @@ const emailTemplates = {
       userName: 'John',
       amountDue: 20,
       lastFourDigits: '4242',
-      billingPortalUrl: 'https://sim.ai/settings/billing',
+      billingPortalUrl: 'https://github.com/tunacosgun/sim/settings/billing',
       failureReason: 'Card declined',
     }),
 
@@ -100,7 +100,7 @@ const emailTemplates = {
       trigger: 'api',
       duration: '2.3s',
       cost: '$0.0042',
-      logUrl: 'https://sim.ai/workspace/ws_123/logs?executionId=exec_abc123',
+      logUrl: 'https://github.com/tunacosgun/sim/workspace/ws_123/logs?executionId=exec_abc123',
     }),
   'workflow-notification-error': () =>
     renderWorkflowNotificationEmail({
@@ -109,7 +109,7 @@ const emailTemplates = {
       trigger: 'webhook',
       duration: '1.1s',
       cost: '$0.0021',
-      logUrl: 'https://sim.ai/workspace/ws_123/logs?executionId=exec_abc123',
+      logUrl: 'https://github.com/tunacosgun/sim/workspace/ws_123/logs?executionId=exec_abc123',
     }),
   'workflow-notification-alert': () =>
     renderWorkflowNotificationEmail({
@@ -118,7 +118,7 @@ const emailTemplates = {
       trigger: 'schedule',
       duration: '45.2s',
       cost: '$0.0156',
-      logUrl: 'https://sim.ai/workspace/ws_123/logs?executionId=exec_abc123',
+      logUrl: 'https://github.com/tunacosgun/sim/workspace/ws_123/logs?executionId=exec_abc123',
       alertReason: '3 consecutive failures detected',
     }),
   'workflow-notification-full': () =>
@@ -128,7 +128,7 @@ const emailTemplates = {
       trigger: 'api',
       duration: '12.5s',
       cost: '$0.0234',
-      logUrl: 'https://sim.ai/workspace/ws_123/logs?executionId=exec_abc123',
+      logUrl: 'https://github.com/tunacosgun/sim/workspace/ws_123/logs?executionId=exec_abc123',
       finalOutput: { processed: 150, skipped: 3, status: 'completed' },
       rateLimits: {
         sync: { requestsPerMinute: 60, remaining: 45 },

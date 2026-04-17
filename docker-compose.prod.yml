@@ -1,6 +1,6 @@
 services:
   simstudio:
-    image: ghcr.io/simstudioai/simstudio:latest
+    image: ghcr.io/tunacosgun/simstudio:latest
     restart: unless-stopped
     ports:
       - '3000:3000'
@@ -39,7 +39,7 @@ services:
       start_period: 10s
 
   realtime:
-    image: ghcr.io/simstudioai/realtime:latest
+    image: ghcr.io/tunacosgun/realtime:latest
     restart: unless-stopped
     ports:
       - '3002:3002'
@@ -66,7 +66,7 @@ services:
       start_period: 10s
 
   migrations:
-    image: ghcr.io/simstudioai/migrations:latest
+    image: ghcr.io/tunacosgun/migrations:latest
     working_dir: /app/packages/db
     environment:
       - DATABASE_URL=postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@db:5432/${POSTGRES_DB:-simstudio}

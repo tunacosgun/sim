@@ -5,7 +5,7 @@ copilot:
   # Server configuration
   server:
     image:
-      repository: simstudioai/copilot
+      repository: tunacosgun/copilot
       tag: latest
       pullPolicy: Always
     

@@ -137,7 +137,7 @@ export default function PrivacyPolicy() {
             duration of a page visit).
           </li>
           <li>
-            <strong>Website</strong> refers to Sim, accessible from sim.ai
+            <strong>Website</strong> refers to Sim, accessible from github.com/tunacosgun/sim
           </li>
           <li>
             <strong>You</strong> means the individual accessing or using the Service, or the
@@ -605,10 +605,10 @@ export default function PrivacyPolicy() {
           or "share" under CCPA/CPRA. You have the right to opt-out of such data sharing. To
           exercise this right, contact us at{' '}
           <Link
-            href='mailto:privacy@sim.ai'
+            href='mailto:privacy@github.com/tunacosgun/sim'
             className='text-[var(--landing-text)] underline hover:text-white'
           >
-            privacy@sim.ai
+            privacy@github.com/tunacosgun/sim
           </Link>
           .
         </p>
@@ -683,7 +683,7 @@ export default function PrivacyPolicy() {
         <h3 className='mb-2 font-medium text-xl'>Scope</h3>
         <p className='mb-4'>This policy applies to the following systems and services:</p>
         <ul className='mb-4 list-disc space-y-2 pl-6'>
-          <li>sim.ai website</li>
+          <li>github.com/tunacosgun/sim website</li>
           <li>Sim web application</li>
           <li>Sim API services</li>
         </ul>
@@ -694,10 +694,10 @@ export default function PrivacyPolicy() {
           solution vendor in accordance with their disclosure policy (if any). Before beginning your
           inquiry, email us at{' '}
           <Link
-            href='mailto:security@sim.ai'
+            href='mailto:security@github.com/tunacosgun/sim'
             className='text-[var(--landing-text)] underline hover:text-white'
           >
-            security@sim.ai
+            security@github.com/tunacosgun/sim
           </Link>{' '}
           if you're unsure whether a system or endpoint is in scope.
         </p>
@@ -716,10 +716,10 @@ export default function PrivacyPolicy() {
         <p className='mb-4'>
           To report any security flaws, send an email to{' '}
           <Link
-            href='mailto:security@sim.ai'
+            href='mailto:security@github.com/tunacosgun/sim'
             className='text-[var(--landing-text)] underline hover:text-white'
           >
-            security@sim.ai
+            security@github.com/tunacosgun/sim
           </Link>
           . The next business day, we'll acknowledge receipt of your vulnerability report and keep
           you updated on our progress. Reports can be anonymously submitted.
@@ -761,10 +761,10 @@ export default function PrivacyPolicy() {
           <li>
             Email:{' '}
             <Link
-              href='mailto:privacy@sim.ai'
+              href='mailto:privacy@github.com/tunacosgun/sim'
               className='text-[var(--landing-text)] underline hover:text-white'
             >
-              privacy@sim.ai
+              privacy@github.com/tunacosgun/sim
             </Link>
           </li>
           <li>Mailing Address: Sim, 80 Langton St, San Francisco, CA 94103, USA</li>

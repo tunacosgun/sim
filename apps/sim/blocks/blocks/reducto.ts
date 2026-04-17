@@ -10,7 +10,7 @@ export const ReductoBlock: BlockConfig<ReductoParserOutput> = {
   hideFromToolbar: true,
   authMode: AuthMode.ApiKey,
   longDescription: `Integrate Reducto Parse into the workflow. Can extract text from uploaded PDF documents, or from a URL.`,
-  docsLink: 'https://docs.sim.ai/tools/reducto',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/reducto',
   category: 'tools',
   integrationType: IntegrationType.AI,
   tags: ['document-processing', 'ocr'],

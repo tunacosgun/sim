@@ -10,7 +10,7 @@ export const PineconeBlock: BlockConfig<PineconeResponse> = {
   authMode: AuthMode.ApiKey,
   longDescription:
     'Integrate Pinecone into the workflow. Can generate embeddings, upsert text, search with text, fetch vectors, and search with vectors.',
-  docsLink: 'https://docs.sim.ai/tools/pinecone',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/pinecone',
   category: 'tools',
   integrationType: IntegrationType.Databases,
   tags: ['vector-search', 'knowledge-base'],

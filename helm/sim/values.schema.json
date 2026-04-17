@@ -13,7 +13,7 @@
         },
         "useRegistryForAllImages": {
           "type": "boolean",
-          "description": "Use registry for all images, not just simstudioai/* images"
+          "description": "Use registry for all images, not just tunacosgun/* images"
         },
         "imagePullSecrets": {
           "type": "array",

@@ -38,7 +38,7 @@ export const metadata = {
     'AI agent deployment',
     'AI tools',
   ],
-  authors: [{ name: 'Sim Team', url: 'https://sim.ai' }],
+  authors: [{ name: 'Sim Team', url: 'https://github.com/tunacosgun/sim' }],
   creator: 'Sim',
   publisher: 'Sim',
   category: 'Developer Tools',
@@ -81,8 +81,8 @@ export const metadata = {
     title: 'Sim Documentation — The AI Workspace for Teams',
     description:
       'Documentation for Sim — the open-source AI workspace where teams build, deploy, and manage AI agents. Connect 1,000+ integrations and every major LLM.',
-    creator: '@simdotai',
-    site: '@simdotai',
+    creator: '@tunacosgun',
+    site: '@tunacosgun',
     images: [`${DOCS_BASE_URL}/api/og?title=Sim%20Documentation`],
   },
   robots: {

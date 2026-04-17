@@ -10,7 +10,7 @@ export const AsanaBlock: BlockConfig<AsanaResponse> = {
   description: 'Interact with Asana',
   authMode: AuthMode.OAuth,
   longDescription: 'Integrate Asana into the workflow. Can read, write, and update tasks.',
-  docsLink: 'https://docs.sim.ai/tools/asana',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/asana',
   category: 'tools',
   integrationType: IntegrationType.Productivity,
   tags: ['project-management', 'ticketing', 'automation'],

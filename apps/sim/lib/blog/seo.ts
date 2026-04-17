@@ -47,7 +47,7 @@ export function buildPostMetadata(post: BlogMeta): Metadata {
       description: post.description,
       images: [post.ogImage],
       creator: post.author.url?.includes('x.com') ? `@${post.author.xHandle || ''}` : undefined,
-      site: '@simdotai',
+      site: '@tunacosgun',
     },
     other: {
       'article:published_time': post.date,

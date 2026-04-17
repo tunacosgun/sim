@@ -37,19 +37,19 @@ vi.mock('@/lib/core/config/env', () =>
     RESEND_API_KEY: 'test-api-key',
     AZURE_ACS_CONNECTION_STRING: 'test-azure-connection-string',
     AZURE_COMMUNICATION_EMAIL_DOMAIN: 'test.azurecomm.net',
-    NEXT_PUBLIC_APP_URL: 'https://test.sim.ai',
-    FROM_EMAIL_ADDRESS: 'Sim <noreply@sim.ai>',
+    NEXT_PUBLIC_APP_URL: 'https://test.github.com/tunacosgun/sim',
+    FROM_EMAIL_ADDRESS: 'Sim <noreply@github.com/tunacosgun/sim>',
   })
 )
 
 vi.mock('@/lib/core/utils/urls', () => ({
-  getEmailDomain: vi.fn().mockReturnValue('sim.ai'),
-  getBaseUrl: vi.fn().mockReturnValue('https://test.sim.ai'),
-  getBaseDomain: vi.fn().mockReturnValue('test.sim.ai'),
+  getEmailDomain: vi.fn().mockReturnValue('github.com/tunacosgun/sim'),
+  getBaseUrl: vi.fn().mockReturnValue('https://test.github.com/tunacosgun/sim'),
+  getBaseDomain: vi.fn().mockReturnValue('test.github.com/tunacosgun/sim'),
 }))
 
 vi.mock('@/lib/messaging/email/utils', () => ({
-  getFromEmailAddress: vi.fn().mockReturnValue('Sim <noreply@sim.ai>'),
+  getFromEmailAddress: vi.fn().mockReturnValue('Sim <noreply@github.com/tunacosgun/sim>'),
   hasEmailHeaderControlChars: vi.fn().mockImplementation((value: string) => /[\r\n]/.test(value)),
   EMAIL_HEADER_CONTROL_CHARS_REGEX: /[\r\n]/,
   NO_EMAIL_HEADER_CONTROL_CHARS_REGEX: /^[^\r\n]*$/,

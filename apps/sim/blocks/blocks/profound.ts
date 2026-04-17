@@ -64,7 +64,7 @@ export const ProfoundBlock: BlockConfig = {
   description: 'AI visibility and analytics with Profound',
   longDescription:
     'Track how your brand appears across AI platforms. Monitor visibility scores, sentiment, citations, bot traffic, referrals, content optimization, and prompt volumes with Profound.',
-  docsLink: 'https://docs.sim.ai/tools/profound',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/profound',
   category: 'tools',
   integrationType: IntegrationType.Analytics,
   tags: ['seo', 'data-analytics'],

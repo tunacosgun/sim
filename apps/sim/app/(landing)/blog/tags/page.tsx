@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     card: 'summary',
     title: 'Blog Tags | Sim',
     description: 'Browse Sim blog posts by topic — AI agents, workflows, integrations, and more.',
-    site: '@simdotai',
+    site: '@tunacosgun',
   },
 }
 

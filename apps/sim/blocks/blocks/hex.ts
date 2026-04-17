@@ -9,7 +9,7 @@ export const HexBlock: BlockConfig<HexResponse> = {
   description: 'Run and manage Hex projects',
   longDescription:
     'Integrate Hex into your workflow. Run projects, check run status, manage collections and groups, list users, and view data connections. Requires a Hex API token.',
-  docsLink: 'https://docs.sim.ai/tools/hex',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/hex',
   category: 'tools',
   integrationType: IntegrationType.Analytics,
   tags: ['data-warehouse', 'data-analytics'],

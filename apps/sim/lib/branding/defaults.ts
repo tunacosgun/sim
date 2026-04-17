@@ -9,7 +9,7 @@ export const defaultBrandConfig: BrandConfig = {
   wordmarkUrl: undefined,
   faviconUrl: undefined,
   customCssUrl: undefined,
-  supportEmail: 'help@sim.ai',
+  supportEmail: 'help@github.com/tunacosgun/sim',
   documentationUrl: undefined,
   termsUrl: undefined,
   privacyUrl: undefined,

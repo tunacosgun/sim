@@ -37,6 +37,6 @@ export default async function Image({
       model.contextWindow ? `${formatTokenCount(model.contextWindow)} context` : 'Unknown context',
       model.capabilityTags[0] ?? 'Capabilities tracked',
     ],
-    domainLabel: `sim.ai${model.href}`,
+    domainLabel: `github.com/tunacosgun/sim${model.href}`,
   })
 }

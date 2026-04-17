@@ -13,7 +13,7 @@ export function PoweredBySim() {
       }
     >
       <a
-        href='https://sim.ai'
+        href='https://github.com/tunacosgun/sim'
         target='_blank'
         rel='noopener noreferrer'
         className='inline-flex items-center gap-1.5 transition hover:opacity-80'

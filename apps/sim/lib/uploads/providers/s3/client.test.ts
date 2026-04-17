@@ -18,7 +18,7 @@ const {
   const mockSend = vi.fn()
   const mockS3Client = { send: mockSend }
   const mockEnv: Record<string, string | undefined> = {
-    NEXT_PUBLIC_APP_URL: 'https://test.sim.ai',
+    NEXT_PUBLIC_APP_URL: 'https://test.github.com/tunacosgun/sim',
     S3_BUCKET_NAME: 'test-bucket',
     AWS_REGION: 'test-region',
     AWS_ACCESS_KEY_ID: 'test-access-key',

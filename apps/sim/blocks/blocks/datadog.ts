@@ -10,7 +10,7 @@ export const DatadogBlock: BlockConfig<DatadogResponse> = {
   authMode: AuthMode.ApiKey,
   longDescription:
     'Integrate Datadog monitoring into workflows. Submit metrics, manage monitors, query logs, create events, handle downtimes, and more.',
-  docsLink: 'https://docs.sim.ai/tools/datadog',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/datadog',
   category: 'tools',
   integrationType: IntegrationType.Analytics,
   tags: ['monitoring', 'incident-management', 'error-tracking'],

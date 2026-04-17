@@ -27,42 +27,42 @@ const WORKSPACE: ProductLink[] = [
   {
     label: 'Workflows',
     description: 'Visual AI automation builder',
-    href: 'https://docs.sim.ai/getting-started',
+    href: 'https://github.com/tunacosgun/sim/getting-started',
     external: true,
     icon: WorkflowIcon,
   },
   {
     label: 'Agent',
     description: 'Build autonomous AI agents',
-    href: 'https://docs.sim.ai/blocks/agent',
+    href: 'https://github.com/tunacosgun/sim/blocks/agent',
     external: true,
     icon: AgentIcon,
   },
   {
     label: 'MCP',
     description: 'Connect external tools',
-    href: 'https://docs.sim.ai/mcp',
+    href: 'https://github.com/tunacosgun/sim/mcp',
     external: true,
     icon: McpIcon,
   },
   {
     label: 'Knowledge Base',
     description: 'Retrieval-augmented context',
-    href: 'https://docs.sim.ai/knowledgebase',
+    href: 'https://github.com/tunacosgun/sim/knowledgebase',
     external: true,
     icon: PackageSearchIcon,
   },
   {
     label: 'Tables',
     description: 'Structured data storage',
-    href: 'https://docs.sim.ai/tables',
+    href: 'https://github.com/tunacosgun/sim/tables',
     external: true,
     icon: TableIcon,
   },
   {
     label: 'API',
     description: 'Deploy agents as endpoints',
-    href: 'https://docs.sim.ai/api-reference/getting-started',
+    href: 'https://github.com/tunacosgun/sim/api-reference/getting-started',
     external: true,
     icon: ApiIcon,
   },
@@ -72,7 +72,7 @@ const EXPLORE: SidebarLink[] = [
   { label: 'Models', href: '/models' },
   { label: 'Integrations', href: '/integrations' },
   { label: 'Changelog', href: '/changelog' },
-  { label: 'Self-hosting', href: 'https://docs.sim.ai/self-hosting', external: true },
+  { label: 'Self-hosting', href: 'https://github.com/tunacosgun/sim/self-hosting', external: true },
 ]
 
 function DropdownLink({ link }: { link: ProductLink }) {

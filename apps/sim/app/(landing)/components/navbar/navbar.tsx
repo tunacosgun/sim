@@ -33,7 +33,7 @@ interface NavLink {
 }
 
 const NAV_LINKS: NavLink[] = [
-  { label: 'Docs', href: 'https://docs.sim.ai', external: true, icon: 'chevron', dropdown: 'docs' },
+  { label: 'Docs', href: 'https://github.com/tunacosgun/sim', external: true, icon: 'chevron', dropdown: 'docs' },
   { label: 'Blog', href: '/blog', icon: 'chevron', dropdown: 'blog' },
   { label: 'Integrations', href: '/integrations' },
   { label: 'Models', href: '/models' },
@@ -330,7 +330,7 @@ export default function Navbar({ logoOnly = false, blogPosts = [] }: NavbarProps
               })}
               <li className='border-[var(--landing-border)] border-b'>
                 <a
-                  href='https://github.com/simstudioai/sim'
+                  href='https://github.com/tunacosgun/sim'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='flex items-center gap-2 px-5 py-3.5 text-[var(--landing-text)] transition-colors active:bg-[var(--landing-bg-elevated)]'

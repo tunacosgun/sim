@@ -9,7 +9,7 @@ export const DynamoDBBlock: BlockConfig<DynamoDBResponse | DynamoDBIntrospectRes
   description: 'Connect to Amazon DynamoDB',
   longDescription:
     'Integrate Amazon DynamoDB into workflows. Supports Get, Put, Query, Scan, Update, Delete, and Introspect operations on DynamoDB tables.',
-  docsLink: 'https://docs.sim.ai/tools/dynamodb',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/dynamodb',
   category: 'tools',
   integrationType: IntegrationType.Databases,
   tags: ['cloud', 'data-warehouse'],

@@ -8,7 +8,7 @@ export const LangsmithBlock: BlockConfig<LangsmithResponse> = {
   description: 'Forward workflow runs to LangSmith for observability',
   longDescription:
     'Send run data to LangSmith to trace executions, attach metadata, and monitor workflow performance.',
-  docsLink: 'https://docs.sim.ai/tools/langsmith',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/langsmith',
   category: 'tools',
   integrationType: IntegrationType.DeveloperTools,
   tags: ['monitoring', 'llm', 'data-analytics'],

@@ -9,7 +9,7 @@ export const STSBlock: BlockConfig<STSBaseResponse> = {
   description: 'Connect to AWS Security Token Service',
   longDescription:
     'Integrate AWS STS into the workflow. Assume roles, get temporary credentials, verify caller identity, and look up access key information.',
-  docsLink: 'https://docs.sim.ai/tools/sts',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/sts',
   category: 'tools',
   integrationType: IntegrationType.Security,
   tags: ['cloud'],

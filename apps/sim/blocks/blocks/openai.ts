@@ -11,7 +11,7 @@ export const OpenAIBlock: BlockConfig = {
   category: 'tools',
   integrationType: IntegrationType.AI,
   tags: ['llm', 'vector-search'],
-  docsLink: 'https://docs.sim.ai/tools/openai',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/openai',
   bgColor: '#10a37f',
   icon: OpenAIIcon,
   subBlocks: [

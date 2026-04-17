@@ -15,7 +15,7 @@ export const GrainBlock: BlockConfig = {
   category: 'tools',
   integrationType: IntegrationType.Productivity,
   tags: ['meeting', 'note-taking'],
-  docsLink: 'https://docs.sim.ai/tools/grain',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/grain',
   icon: GrainIcon,
   bgColor: '#F6FAF9',
   subBlocks: [

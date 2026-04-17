@@ -325,8 +325,8 @@ export async function generateMetadata(props: {
         data.description ||
         'Documentation for Sim — the open-source AI workspace where teams build, deploy, and manage AI agents.',
       images: [ogImageUrl],
-      creator: '@simdotai',
-      site: '@simdotai',
+      creator: '@tunacosgun',
+      site: '@tunacosgun',
     },
     canonical: fullUrl,
     alternates: {

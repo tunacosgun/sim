@@ -12,7 +12,7 @@ export const GoogleContactsBlock: BlockConfig<GoogleContactsResponse> = {
   authMode: AuthMode.OAuth,
   longDescription:
     'Integrate Google Contacts into the workflow. Can create, read, update, delete, list, and search contacts.',
-  docsLink: 'https://docs.sim.ai/tools/google_contacts',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/google_contacts',
   category: 'tools',
   integrationType: IntegrationType.Productivity,
   tags: ['google-workspace', 'customer-support', 'enrichment'],

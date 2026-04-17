@@ -11,7 +11,7 @@ describe('SimStudioClient', () => {
   beforeEach(() => {
     client = new SimStudioClient({
       apiKey: 'test-api-key',
-      baseUrl: 'https://test.sim.ai',
+      baseUrl: 'https://test.github.com/tunacosgun/sim',
     })
     vi.clearAllMocks()
   })
@@ -43,16 +43,16 @@ describe('SimStudioClient', () => {
 
   describe('setBaseUrl', () => {
     it('should update the base URL', () => {
-      const newBaseUrl = 'https://new.sim.ai'
+      const newBaseUrl = 'https://new.github.com/tunacosgun/sim'
       client.setBaseUrl(newBaseUrl)
       expect((client as any).baseUrl).toBe(newBaseUrl)
     })
 
     it('should strip trailing slash from base URL', () => {
-      const urlWithSlash = 'https://test.sim.ai/'
+      const urlWithSlash = 'https://test.github.com/tunacosgun/sim/'
       client.setBaseUrl(urlWithSlash)
       // Verify the trailing slash was actually stripped
-      expect((client as any).baseUrl).toBe('https://test.sim.ai')
+      expect((client as any).baseUrl).toBe('https://test.github.com/tunacosgun/sim')
     })
   })
 
@@ -216,7 +216,7 @@ describe('SimStudioClient', () => {
 
       // Verify correct endpoint was called
       const calls = vi.mocked(fetch.default).mock.calls
-      expect(calls[0][0]).toBe('https://test.sim.ai/api/jobs/task-123')
+      expect(calls[0][0]).toBe('https://test.github.com/tunacosgun/sim/api/jobs/task-123')
     })
 
     it('should handle job not found error', async () => {
@@ -448,7 +448,7 @@ describe('SimStudioClient', () => {
 
       // Verify correct endpoint was called
       const calls = vi.mocked(fetch.default).mock.calls
-      expect(calls[0][0]).toBe('https://test.sim.ai/api/users/me/usage-limits')
+      expect(calls[0][0]).toBe('https://test.github.com/tunacosgun/sim/api/users/me/usage-limits')
     })
 
     it('should handle unauthorized error', async () => {

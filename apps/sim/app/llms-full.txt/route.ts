@@ -151,19 +151,19 @@ Built-in table creation and management:
 ## Links
 
 - **Website**: ${baseUrl}
-- **Documentation**: https://docs.sim.ai
-- **API Reference**: https://docs.sim.ai/api
-- **GitHub**: https://github.com/simstudioai/sim
-- **Discord**: https://discord.gg/Hr4UWYEcTT
-- **X/Twitter**: https://x.com/simdotai
-- **LinkedIn**: https://linkedin.com/company/simstudioai
+- **Documentation**: https://github.com/tunacosgun/sim
+- **API Reference**: https://github.com/tunacosgun/sim/api
+- **GitHub**: https://github.com/tunacosgun/sim
+- **Discord**: https://
+- **X/Twitter**: https://x.com/tunacosgun_dev
+- **LinkedIn**: https://linkedin.com/in/tunacosgun
 
 ## Support
 
-- **Email**: help@sim.ai
-- **Security Issues**: security@sim.ai
-- **Documentation**: https://docs.sim.ai
-- **Community Discord**: https://discord.gg/Hr4UWYEcTT
+- **Email**: help@github.com/tunacosgun/sim
+- **Security Issues**: security@github.com/tunacosgun/sim
+- **Documentation**: https://github.com/tunacosgun/sim
+- **Community Discord**: https://
 
 ## Legal
 

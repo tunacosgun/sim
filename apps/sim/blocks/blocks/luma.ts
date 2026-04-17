@@ -7,7 +7,7 @@ export const LumaBlock: BlockConfig = {
   description: 'Manage events and guests on Luma',
   longDescription:
     'Integrate Luma into the workflow. Can create events, update events, get event details, list calendar events, get guest lists, and add guests to events.',
-  docsLink: 'https://docs.sim.ai/tools/luma',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/luma',
   category: 'tools',
   integrationType: IntegrationType.Productivity,
   tags: ['events', 'calendar', 'scheduling'],

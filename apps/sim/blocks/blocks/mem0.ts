@@ -13,7 +13,7 @@ export const Mem0Block: BlockConfig<Mem0Response> = {
   category: 'tools',
   integrationType: IntegrationType.AI,
   tags: ['llm', 'knowledge-base', 'agentic'],
-  docsLink: 'https://docs.sim.ai/tools/mem0',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/mem0',
   subBlocks: [
     {
       id: 'operation',

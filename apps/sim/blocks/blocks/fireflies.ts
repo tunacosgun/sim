@@ -15,7 +15,7 @@ export const FirefliesBlock: BlockConfig<FirefliesResponse> = {
   triggerAllowed: true,
   longDescription:
     'Integrate Fireflies.ai into the workflow. Manage meeting transcripts, add bot to live meetings, create soundbites, and more. Can also trigger workflows when transcriptions complete.',
-  docsLink: 'https://docs.sim.ai/tools/fireflies',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/fireflies',
   category: 'tools',
   integrationType: IntegrationType.Productivity,
   tags: ['meeting', 'speech-to-text', 'note-taking'],

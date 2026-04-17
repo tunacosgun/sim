@@ -8,7 +8,7 @@ export const TailscaleBlock: BlockConfig = {
   description: 'Manage devices and network settings in your Tailscale tailnet',
   longDescription:
     'Interact with the Tailscale API to manage devices, DNS, ACLs, auth keys, users, and routes across your tailnet.',
-  docsLink: 'https://docs.sim.ai/tools/tailscale',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/tailscale',
   category: 'tools',
   integrationType: IntegrationType.Security,
   tags: ['monitoring'],

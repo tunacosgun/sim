@@ -87,6 +87,6 @@ jobs:
             ```
             
             ### Documentation
-            See the [README](https://github.com/simstudioai/sim/tree/main/packages/python-sdk) or the [docs](https://docs.sim.ai/sdks/python) for more information.
+            See the [README](https://github.com/tunacosgun/sim/tree/main/packages/python-sdk) or the [docs](https://github.com/tunacosgun/sim/sdks/python) for more information.
           draft: false
           prerelease: false 

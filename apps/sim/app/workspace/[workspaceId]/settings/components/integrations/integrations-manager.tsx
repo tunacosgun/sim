@@ -1008,7 +1008,7 @@ export function IntegrationsManager() {
                       {selectedOAuthService?.description || 'Paste or upload the JSON key file'}
                     </p>
                     <a
-                      href='https://docs.sim.ai/credentials/google-service-account'
+                      href='https://github.com/tunacosgun/sim/credentials/google-service-account'
                       target='_blank'
                       rel='noopener noreferrer'
                       className='text-[12px] text-[var(--accent)] hover:underline'

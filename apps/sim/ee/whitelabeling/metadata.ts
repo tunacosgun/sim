@@ -84,8 +84,8 @@ export function generateBrandedMetadata(override: Partial<Metadata> = {}): Metad
       title: defaultTitle,
       description: summaryFull,
       images: [brand.logoUrl || '/logo/426-240/primary/small.png'],
-      creator: '@simdotai',
-      site: '@simdotai',
+      creator: '@tunacosgun',
+      site: '@tunacosgun',
     },
     manifest: '/manifest.webmanifest',
     icons: {

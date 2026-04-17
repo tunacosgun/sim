@@ -12,7 +12,7 @@ export default async function ModelsLayout({ children }: { children: React.React
     name: 'Sim',
     url,
     logo: `${url}/logo/primary/small.png`,
-    sameAs: ['https://x.com/simdotai'],
+    sameAs: ['https://x.com/tunacosgun_dev'],
   }
 
   const websiteJsonLd = {

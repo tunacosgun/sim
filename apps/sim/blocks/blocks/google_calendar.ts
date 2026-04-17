@@ -13,7 +13,7 @@ export const GoogleCalendarBlock: BlockConfig<GoogleCalendarResponse> = {
   authMode: AuthMode.OAuth,
   longDescription:
     'Integrate Google Calendar into the workflow. Can create, read, update, and list calendar events.',
-  docsLink: 'https://docs.sim.ai/tools/google_calendar',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/google_calendar',
   category: 'tools',
   integrationType: IntegrationType.Productivity,
   tags: ['calendar', 'scheduling', 'google-workspace'],

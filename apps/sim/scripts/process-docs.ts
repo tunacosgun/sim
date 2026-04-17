@@ -35,7 +35,7 @@ interface ProcessingOptions {
 async function processDocs(options: ProcessingOptions = {}) {
   const config = {
     docsPath: options.docsPath || path.join(process.cwd(), '../../apps/docs/content/docs/en'),
-    baseUrl: options.baseUrl || (isDev ? 'http://localhost:4000' : 'https://docs.sim.ai'),
+    baseUrl: options.baseUrl || (isDev ? 'http://localhost:4000' : 'https://github.com/tunacosgun/sim'),
     chunkSize: options.chunkSize || 1024,
     minCharactersPerChunk: options.minCharactersPerChunk || 100,
     chunkOverlap: options.chunkOverlap || 200,

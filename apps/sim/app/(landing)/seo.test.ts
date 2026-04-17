@@ -56,11 +56,11 @@ function getAllSeoFiles(exts: string[]): string[] {
 }
 
 describe('SEO canonical URLs', () => {
-  it('SITE_URL equals https://www.sim.ai', () => {
-    expect(SITE_URL).toBe('https://www.sim.ai')
+  it('SITE_URL equals https://www.github.com/tunacosgun/sim', () => {
+    expect(SITE_URL).toBe('https://www.github.com/tunacosgun/sim')
   })
 
-  it('public pages do not hardcode https://sim.ai (without www)', () => {
+  it('public pages do not hardcode https://github.com/tunacosgun/sim (without www)', () => {
     const files = getAllSeoFiles(['.ts', '.tsx', '.mdx'])
     const violations: string[] = []
 
@@ -71,18 +71,18 @@ describe('SEO canonical URLs', () => {
       for (let i = 0; i < lines.length; i++) {
         const line = lines[i]
         const hasBareSimAi =
-          line.includes("'https://sim.ai'") ||
-          line.includes("'https://sim.ai/") ||
-          line.includes('"https://sim.ai"') ||
-          line.includes('"https://sim.ai/') ||
-          line.includes('`https://sim.ai/') ||
-          line.includes('`https://sim.ai`') ||
-          line.includes('canonical: https://sim.ai/')
+          line.includes("'https://github.com/tunacosgun/sim'") ||
+          line.includes("'https://github.com/tunacosgun/sim/") ||
+          line.includes('"https://github.com/tunacosgun/sim"') ||
+          line.includes('"https://github.com/tunacosgun/sim/') ||
+          line.includes('`https://github.com/tunacosgun/sim/') ||
+          line.includes('`https://github.com/tunacosgun/sim`') ||
+          line.includes('canonical: https://github.com/tunacosgun/sim/')
 
         if (!hasBareSimAi) continue
 
         const isAllowlisted =
-          line.includes('https://sim.ai/careers') || line.includes('https://sim.ai/discord')
+          line.includes('https://github.com/tunacosgun/sim/careers') || line.includes('https://github.com/tunacosgun/sim/discord')
 
         if (isAllowlisted) continue
 
@@ -93,7 +93,7 @@ describe('SEO canonical URLs', () => {
 
     expect(
       violations,
-      `Found hardcoded https://sim.ai (without www):\n${violations.join('\n')}`
+      `Found hardcoded https://github.com/tunacosgun/sim (without www):\n${violations.join('\n')}`
     ).toHaveLength(0)
   })
 

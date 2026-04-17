@@ -13,7 +13,7 @@ export const TavilyBlock: BlockConfig<TavilyResponse> = {
   category: 'tools',
   integrationType: IntegrationType.Search,
   tags: ['web-scraping', 'enrichment'],
-  docsLink: 'https://docs.sim.ai/tools/tavily',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/tavily',
   bgColor: '#0066FF',
   icon: TavilyIcon,
   subBlocks: [

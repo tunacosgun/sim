@@ -11,7 +11,7 @@ export const SpotifyBlock: BlockConfig<ToolResponse> = {
   authMode: AuthMode.OAuth,
   longDescription:
     'Integrate Spotify into your workflow. Search for tracks, albums, artists, and playlists. Manage playlists, access your library, control playback, browse podcasts and audiobooks.',
-  docsLink: 'https://docs.sim.ai/tools/spotify',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/spotify',
   category: 'tools',
   integrationType: IntegrationType.Communication,
   tags: ['content-management', 'automation'],

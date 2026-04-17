@@ -13,7 +13,7 @@ export const CirclebackBlock: BlockConfig = {
   integrationType: IntegrationType.AI,
   tags: ['meeting', 'note-taking', 'automation'],
   bgColor: 'linear-gradient(180deg, #E0F7FA 0%, #FFFFFF 100%)',
-  docsLink: 'https://docs.sim.ai/tools/circleback',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/circleback',
   icon: CirclebackIcon,
   triggerAllowed: true,
 

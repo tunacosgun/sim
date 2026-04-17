@@ -5,7 +5,7 @@ Sim is the open-source AI workspace where teams build, deploy, and manage AI age
 ## Key Facts
 
 - Website: https://sim.ai
-- GitHub: https://github.com/simstudioai/sim
+- GitHub: https://github.com/tunacosgun/sim
 - Documentation: https://docs.sim.ai
 - License: Apache 2.0
 - Category: AI workspace, AI agent builder, developer tools

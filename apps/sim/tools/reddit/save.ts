@@ -43,7 +43,7 @@ export const saveTool: ToolConfig<RedditSaveParams, RedditWriteResponse> = {
 
       return {
         Authorization: `Bearer ${params.accessToken}`,
-        'User-Agent': 'sim-studio/1.0 (https://github.com/simstudioai/sim)',
+        'User-Agent': 'sim-studio/1.0 (https://github.com/tunacosgun/sim)',
         'Content-Type': 'application/x-www-form-urlencoded',
       }
     },
@@ -131,7 +131,7 @@ export const unsaveTool: ToolConfig<RedditSaveParams, RedditWriteResponse> = {
 
       return {
         Authorization: `Bearer ${params.accessToken}`,
-        'User-Agent': 'sim-studio/1.0 (https://github.com/simstudioai/sim)',
+        'User-Agent': 'sim-studio/1.0 (https://github.com/tunacosgun/sim)',
         'Content-Type': 'application/x-www-form-urlencoded',
       }
     },

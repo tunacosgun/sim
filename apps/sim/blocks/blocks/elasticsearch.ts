@@ -10,7 +10,7 @@ export const ElasticsearchBlock: BlockConfig<ElasticsearchResponse> = {
   authMode: AuthMode.ApiKey,
   longDescription:
     'Integrate Elasticsearch into workflows for powerful search, indexing, and data management. Supports document CRUD operations, advanced search queries, bulk operations, index management, and cluster monitoring. Works with both self-hosted and Elastic Cloud deployments.',
-  docsLink: 'https://docs.sim.ai/tools/elasticsearch',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/elasticsearch',
   category: 'tools',
   integrationType: IntegrationType.Databases,
   tags: ['vector-search', 'data-analytics'],

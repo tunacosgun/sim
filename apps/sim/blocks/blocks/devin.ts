@@ -15,7 +15,7 @@ export const DevinBlock: BlockConfig = {
   - Use Get Session to poll for completion status before consuming structured output.
   - Send Message auto-resumes suspended sessions — no need to resume separately.
   `,
-  docsLink: 'https://docs.sim.ai/tools/devin',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/devin',
   category: 'tools',
   integrationType: IntegrationType.DeveloperTools,
   tags: ['agentic', 'automation'],

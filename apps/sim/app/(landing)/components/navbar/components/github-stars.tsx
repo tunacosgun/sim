@@ -28,7 +28,7 @@ export function GitHubStars() {
 
   return (
     <a
-      href='https://github.com/simstudioai/sim'
+      href='https://github.com/tunacosgun/sim'
       target='_blank'
       rel='noopener noreferrer'
       className='flex h-[30px] items-center gap-2 self-center rounded-[5px] px-3 transition-colors duration-200 group-hover:bg-[var(--landing-bg-elevated)]'

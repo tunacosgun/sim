@@ -9,7 +9,7 @@ export const ParallelBlock: BlockConfig<ToolResponse> = {
   authMode: AuthMode.ApiKey,
   longDescription:
     'Integrate Parallel AI into the workflow. Can search the web, extract information from URLs, and conduct deep research.',
-  docsLink: 'https://docs.sim.ai/tools/parallel-ai',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/parallel-ai',
   category: 'tools',
   integrationType: IntegrationType.Search,
   tags: ['web-scraping', 'llm', 'agentic'],

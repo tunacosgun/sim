@@ -99,7 +99,7 @@ function buildFAQs(integration: Integration): FAQItem[] {
     },
     {
       question: `How do I connect ${name} to Sim?`,
-      answer: `Getting started takes under five minutes: (1) Create a free account at sim.ai. (2) Open your workspace and create an agent. (3) Drag a ${name} block onto the workflow builder. (4) ${authStep} (5) Choose the tool you want to use, wire it to the inputs you need, and click Run. Your agent is live.`,
+      answer: `Getting started takes under five minutes: (1) Create a free account at github.com/tunacosgun/sim. (2) Open your workspace and create an agent. (3) Drag a ${name} block onto the workflow builder. (4) ${authStep} (5) Choose the tool you want to use, wire it to the inputs you need, and click Run. Your agent is live.`,
     },
     {
       question: `Can I use ${name} as a tool inside an AI agent in Sim?`,
@@ -134,7 +134,7 @@ function buildFAQs(integration: Integration): FAQItem[] {
     },
     {
       question: `Is the ${name} integration free to use?`,
-      answer: `Yes — Sim's free plan includes access to the ${name} integration and every other integration in the library. No credit card is needed to get started. Visit sim.ai to create your account.`,
+      answer: `Yes — Sim's free plan includes access to the ${name} integration and every other integration in the library. No credit card is needed to get started. Visit github.com/tunacosgun/sim to create your account.`,
     },
   ]
 
@@ -258,7 +258,7 @@ export default async function IntegrationPage({ params }: { params: Promise<{ sl
         '@type': 'HowToStep',
         position: 1,
         name: 'Create a free Sim account',
-        text: 'Sign up at sim.ai — no credit card required.',
+        text: 'Sign up at github.com/tunacosgun/sim — no credit card required.',
       },
       {
         '@type': 'HowToStep',
@@ -448,7 +448,7 @@ export default async function IntegrationPage({ params }: { params: Promise<{ sl
               {
                 step: '01',
                 title: 'Create a free account',
-                body: 'Sign up at sim.ai in seconds. No credit card required. Your workspace is ready immediately.',
+                body: 'Sign up at github.com/tunacosgun/sim in seconds. No credit card required. Your workspace is ready immediately.',
               },
               {
                 step: '02',

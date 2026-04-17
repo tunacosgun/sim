@@ -12,7 +12,7 @@ export const WebflowBlock: BlockConfig<WebflowResponse> = {
   authMode: AuthMode.OAuth,
   longDescription:
     'Integrates Webflow CMS into the workflow. Can create, get, list, update, or delete items in Webflow CMS collections. Manage your Webflow content programmatically. Can be used in trigger mode to trigger workflows when collection items change or forms are submitted.',
-  docsLink: 'https://docs.sim.ai/tools/webflow',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/webflow',
   category: 'tools',
   integrationType: IntegrationType.Design,
   tags: ['content-management', 'seo'],

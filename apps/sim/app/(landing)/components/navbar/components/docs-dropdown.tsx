@@ -4,12 +4,12 @@ import { AgentIcon, GithubOutlineIcon, McpIcon } from '@/components/icons'
 const PREVIEW_CARDS = [
   {
     title: 'Introduction',
-    href: 'https://docs.sim.ai',
+    href: 'https://github.com/tunacosgun/sim',
     image: '/landing/docs-getting-started.svg',
   },
   {
     title: 'Getting Started',
-    href: 'https://docs.sim.ai/getting-started',
+    href: 'https://github.com/tunacosgun/sim/getting-started',
     image: '/landing/docs-intro.svg',
   },
 ] as const
@@ -18,19 +18,19 @@ const RESOURCE_CARDS = [
   {
     title: 'Agent',
     description: 'Build AI agents',
-    href: 'https://docs.sim.ai/blocks/agent',
+    href: 'https://github.com/tunacosgun/sim/blocks/agent',
     icon: AgentIcon,
   },
   {
     title: 'MCP',
     description: 'Connect tools',
-    href: 'https://docs.sim.ai/mcp',
+    href: 'https://github.com/tunacosgun/sim/mcp',
     icon: McpIcon,
   },
   {
     title: 'Self-hosting',
     description: 'Host on your infra',
-    href: 'https://docs.sim.ai/self-hosting',
+    href: 'https://github.com/tunacosgun/sim/self-hosting',
     icon: GithubOutlineIcon,
   },
 ] as const

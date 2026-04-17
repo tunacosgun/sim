@@ -14,7 +14,7 @@ export const ConfluenceBlock: BlockConfig<ConfluenceResponse> = {
   authMode: AuthMode.OAuth,
   longDescription:
     'Integrate Confluence into the workflow. Can read, create, update, delete pages, manage comments, attachments, labels, and search content.',
-  docsLink: 'https://docs.sim.ai/tools/confluence',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/confluence',
   category: 'tools',
   integrationType: IntegrationType.Documents,
   tags: ['knowledge-base', 'content-management', 'note-taking'],

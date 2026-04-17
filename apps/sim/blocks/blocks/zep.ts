@@ -14,7 +14,7 @@ export const ZepBlock: BlockConfig<ZepResponse> = {
   category: 'tools',
   integrationType: IntegrationType.AI,
   tags: ['llm', 'knowledge-base', 'agentic'],
-  docsLink: 'https://docs.sim.ai/tools/zep',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/zep',
   subBlocks: [
     {
       id: 'operation',

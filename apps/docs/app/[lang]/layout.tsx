@@ -71,7 +71,7 @@ export default async function Layout({ children, params }: LayoutProps) {
     publisher: {
       '@type': 'Organization',
       name: 'Sim',
-      url: 'https://sim.ai',
+      url: 'https://github.com/tunacosgun/sim',
       logo: {
         '@type': 'ImageObject',
         url: `${DOCS_BASE_URL}/static/logo.png`,

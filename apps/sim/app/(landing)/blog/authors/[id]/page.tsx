@@ -33,7 +33,7 @@ export async function generateMetadata({
       card: 'summary',
       title: `${name} — Sim Blog`,
       description: `Read articles by ${name} on the Sim blog.`,
-      site: '@simdotai',
+      site: '@tunacosgun',
       ...(author?.xHandle ? { creator: `@${author.xHandle}` } : {}),
     },
   }

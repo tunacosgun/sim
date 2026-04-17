@@ -2,7 +2,7 @@
 global:
   # Image registry and pull policy
   imageRegistry: "ghcr.io"
-  # Use registry for all images, not just simstudioai/* images
+  # Use registry for all images, not just tunacosgun/* images
   useRegistryForAllImages: false
   imagePullSecrets: []
   
@@ -19,7 +19,7 @@ app:
 
   # Image configuration
   image:
-    repository: simstudioai/simstudio
+    repository: tunacosgun/simstudio
     tag: latest
     pullPolicy: Always
 
@@ -322,7 +322,7 @@ realtime:
 
   # Image configuration
   image:
-    repository: simstudioai/realtime
+    repository: tunacosgun/realtime
     tag: latest
     pullPolicy: Always
 
@@ -403,7 +403,7 @@ migrations:
   
   # Image configuration
   image:
-    repository: simstudioai/migrations
+    repository: tunacosgun/migrations
     tag: latest
     pullPolicy: Always
   
@@ -1072,7 +1072,7 @@ copilot:
   server:
     # Image configuration
     image:
-      repository: simstudioai/copilot
+      repository: tunacosgun/copilot
       tag: latest
       pullPolicy: Always
     
@@ -1245,7 +1245,7 @@ copilot:
     
     # Image configuration (same as server)
     image:
-      repository: simstudioai/copilot
+      repository: tunacosgun/copilot
       tag: latest
       pullPolicy: Always
     

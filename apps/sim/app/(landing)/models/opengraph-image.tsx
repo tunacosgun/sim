@@ -24,6 +24,6 @@ export default async function Image() {
       `${TOTAL_MODEL_PROVIDERS} providers`,
       `${formatTokenCount(MAX_CONTEXT_WINDOW)} max context`,
     ],
-    domainLabel: 'sim.ai/models',
+    domainLabel: 'github.com/tunacosgun/sim/models',
   })
 }

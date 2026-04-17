@@ -11,7 +11,7 @@ export const JiraServiceManagementBlock: BlockConfig<JsmResponse> = {
   authMode: AuthMode.OAuth,
   longDescription:
     'Integrate with Jira Service Management for IT service management. Create and manage service requests, handle customers and organizations, track SLAs, and manage queues.',
-  docsLink: 'https://docs.sim.ai/tools/jira-service-management',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/jira-service-management',
   category: 'tools',
   integrationType: IntegrationType.CustomerSupport,
   tags: ['customer-support', 'ticketing', 'incident-management'],

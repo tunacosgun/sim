@@ -20,7 +20,7 @@ describe('HTTP Request Tool', () => {
 
   beforeEach(() => {
     tester = new ToolTester(requestTool as any)
-    process.env.NEXT_PUBLIC_APP_URL = 'https://sim.ai'
+    process.env.NEXT_PUBLIC_APP_URL = 'https://github.com/tunacosgun/sim'
   })
 
   afterEach(() => {
@@ -124,7 +124,7 @@ describe('HTTP Request Tool', () => {
       Object.defineProperty(global, 'window', {
         value: {
           location: {
-            origin: 'https://sim.ai',
+            origin: 'https://github.com/tunacosgun/sim',
           },
         },
         writable: true,
@@ -138,7 +138,7 @@ describe('HTTP Request Tool', () => {
       })
 
       const fetchCall = (global.fetch as any).mock.calls[0]
-      expect(fetchCall[1].headers.Referer).toBe('https://sim.ai')
+      expect(fetchCall[1].headers.Referer).toBe('https://github.com/tunacosgun/sim')
 
       global.window = originalWindow
     })
@@ -197,7 +197,7 @@ describe('HTTP Request Tool', () => {
       Object.defineProperty(global, 'window', {
         value: {
           location: {
-            origin: 'https://sim.ai',
+            origin: 'https://github.com/tunacosgun/sim',
           },
         },
         writable: true,
@@ -212,7 +212,7 @@ describe('HTTP Request Tool', () => {
       const headers = fetchCall[1].headers
 
       expect(headers.Host).toBe('api.example.com')
-      expect(headers.Referer).toBe('https://sim.ai')
+      expect(headers.Referer).toBe('https://github.com/tunacosgun/sim')
       expect(headers['User-Agent']).toContain('Mozilla')
       expect(headers.Accept).toBe('*/*')
       expect(headers['Accept-Encoding']).toContain('gzip')
@@ -424,7 +424,7 @@ describe('HTTP Request Tool', () => {
       Object.defineProperty(global, 'window', {
         value: {
           location: {
-            origin: 'https://sim.ai',
+            origin: 'https://github.com/tunacosgun/sim',
           },
         },
         writable: true,
@@ -446,7 +446,7 @@ describe('HTTP Request Tool', () => {
       expect(headers['Sec-Ch-Ua']).toMatch(/Chromium.*Not-A\.Brand/)
       expect(headers['Sec-Ch-Ua-Mobile']).toBe('?0')
       expect(headers['Sec-Ch-Ua-Platform']).toBe('"macOS"')
-      expect(headers.Referer).toBe('https://sim.ai')
+      expect(headers.Referer).toBe('https://github.com/tunacosgun/sim')
       expect(headers.Host).toBe('api.example.com')
 
       global.window = originalWindow
@@ -481,7 +481,7 @@ describe('HTTP Request Tool', () => {
       Object.defineProperty(global, 'window', {
         value: {
           location: {
-            origin: 'https://sim.ai',
+            origin: 'https://github.com/tunacosgun/sim',
           },
         },
         writable: true,
@@ -499,7 +499,7 @@ describe('HTTP Request Tool', () => {
       Object.defineProperty(global, 'window', {
         value: {
           location: {
-            origin: 'https://sim.ai',
+            origin: 'https://github.com/tunacosgun/sim',
           },
         },
         writable: true,

@@ -8,7 +8,7 @@ export const GooglePagespeedBlock: BlockConfig<GooglePagespeedAnalyzeResponse> =
   description: 'Analyze webpage performance with Google PageSpeed Insights',
   longDescription:
     'Analyze web pages for performance, accessibility, SEO, and best practices using Google PageSpeed Insights API powered by Lighthouse.',
-  docsLink: 'https://docs.sim.ai/tools/google_pagespeed',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/google_pagespeed',
   category: 'tools',
   integrationType: IntegrationType.Analytics,
   tags: ['google-workspace', 'seo', 'monitoring'],

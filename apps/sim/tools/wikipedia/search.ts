@@ -42,7 +42,7 @@ export const searchTool: ToolConfig<WikipediaSearchParams, WikipediaSearchRespon
     },
     method: 'GET',
     headers: () => ({
-      'User-Agent': 'Sim/1.0 (https://sim.ai)',
+      'User-Agent': 'Sim/1.0 (https://github.com/tunacosgun/sim)',
       Accept: 'application/json',
     }),
   },

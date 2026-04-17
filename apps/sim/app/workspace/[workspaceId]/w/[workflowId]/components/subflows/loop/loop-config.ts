@@ -9,5 +9,5 @@ export const LoopTool = {
   name: 'Loop',
   icon: RepeatIcon,
   bgColor: '#2FB3FF',
-  docsLink: 'https://docs.sim.ai/blocks/loop',
+  docsLink: 'https://github.com/tunacosgun/sim/blocks/loop',
 } as const

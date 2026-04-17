@@ -15,7 +15,7 @@ export const SharepointBlock: BlockConfig<SharepointResponse> = {
   authMode: AuthMode.OAuth,
   longDescription:
     'Integrate SharePoint into the workflow. Read/create pages, list sites, and work with lists (read, create, update items). Requires OAuth.',
-  docsLink: 'https://docs.sim.ai/tools/sharepoint',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/sharepoint',
   category: 'tools',
   integrationType: IntegrationType.Documents,
   tags: ['microsoft-365', 'content-management', 'document-processing'],

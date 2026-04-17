@@ -68,7 +68,7 @@ export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url)
   const title = searchParams.get('title') || 'Documentation'
 
-  const allText = `${title}docs.sim.ai`
+  const allText = `${title}github.com/tunacosgun/sim`
   const fontData = await loadGoogleFont('Geist', '400;500;600', allText)
 
   return new ImageResponse(
@@ -114,7 +114,7 @@ export async function GET(request: NextRequest) {
             color: '#71717a',
           }}
         >
-          docs.sim.ai
+          github.com/tunacosgun/sim
         </span>
       </div>
     </div>,

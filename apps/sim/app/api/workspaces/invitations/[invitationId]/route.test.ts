@@ -76,7 +76,7 @@ vi.mock('@sim/logger', () => loggerMock)
 vi.mock('@/lib/audit/log', () => auditMock)
 
 vi.mock('@/lib/core/utils/urls', () => ({
-  getBaseUrl: vi.fn().mockReturnValue('https://test.sim.ai'),
+  getBaseUrl: vi.fn().mockReturnValue('https://test.github.com/tunacosgun/sim'),
 }))
 
 vi.mock('@/components/emails', () => ({
@@ -261,7 +261,7 @@ describe('Workspace Invitation [invitationId] API Route', () => {
 
       expect(response.status).toBe(307)
       expect(response.headers.get('location')).toBe(
-        'https://test.sim.ai/invite/token-abc123?token=token-abc123'
+        'https://test.github.com/tunacosgun/sim/invite/token-abc123?token=token-abc123'
       )
     })
 
@@ -303,7 +303,7 @@ describe('Workspace Invitation [invitationId] API Route', () => {
 
       expect(response.status).toBe(307)
       expect(response.headers.get('location')).toBe(
-        'https://test.sim.ai/workspace/workspace-456/home'
+        'https://test.github.com/tunacosgun/sim/workspace/workspace-456/home'
       )
     })
 
@@ -332,7 +332,7 @@ describe('Workspace Invitation [invitationId] API Route', () => {
       expect(response.status).toBe(307)
       const location = response.headers.get('location')
       expect(location).toBe(
-        'https://test.sim.ai/invite/invitation-789?error=expired&token=token-abc123'
+        'https://test.github.com/tunacosgun/sim/invite/invitation-789?error=expired&token=token-abc123'
       )
     })
 
@@ -360,7 +360,7 @@ describe('Workspace Invitation [invitationId] API Route', () => {
       expect(response.status).toBe(307)
       const location = response.headers.get('location')
       expect(location).toBe(
-        'https://test.sim.ai/invite/invitation-789?error=email-mismatch&token=token-abc123'
+        'https://test.github.com/tunacosgun/sim/invite/invitation-789?error=email-mismatch&token=token-abc123'
       )
     })
 
@@ -394,7 +394,7 @@ describe('Workspace Invitation [invitationId] API Route', () => {
       expect(response.status).toBe(307)
       const location = response.headers.get('location')
       expect(location).toBe(
-        'https://test.sim.ai/invite/non-existent?error=invalid-token&token=some-invalid-token'
+        'https://test.github.com/tunacosgun/sim/invite/non-existent?error=invalid-token&token=some-invalid-token'
       )
     })
 
@@ -423,7 +423,7 @@ describe('Workspace Invitation [invitationId] API Route', () => {
       expect(response.status).toBe(307)
       const location = response.headers.get('location')
       expect(location).toBe(
-        'https://test.sim.ai/invite/invitation-789?error=already-processed&token=token-abc123'
+        'https://test.github.com/tunacosgun/sim/invite/invitation-789?error=already-processed&token=token-abc123'
       )
     })
 
@@ -447,7 +447,7 @@ describe('Workspace Invitation [invitationId] API Route', () => {
       expect(response.status).toBe(307)
       const location = response.headers.get('location')
       expect(location).toBe(
-        'https://test.sim.ai/invite/invitation-789?error=workspace-not-found&token=token-abc123'
+        'https://test.github.com/tunacosgun/sim/invite/invitation-789?error=workspace-not-found&token=token-abc123'
       )
     })
 
@@ -471,7 +471,7 @@ describe('Workspace Invitation [invitationId] API Route', () => {
       expect(response.status).toBe(307)
       const location = response.headers.get('location')
       expect(location).toBe(
-        'https://test.sim.ai/invite/invitation-789?error=user-not-found&token=token-abc123'
+        'https://test.github.com/tunacosgun/sim/invite/invitation-789?error=user-not-found&token=token-abc123'
       )
     })
 
@@ -529,7 +529,7 @@ describe('Workspace Invitation [invitationId] API Route', () => {
       expect(response1.status).toBe(307)
       const location1 = response1.headers.get('location')
       expect(location1).toBe(
-        'https://test.sim.ai/invite/invitation-789?error=email-mismatch&token=token-abc123'
+        'https://test.github.com/tunacosgun/sim/invite/invitation-789?error=email-mismatch&token=token-abc123'
       )
 
       vi.clearAllMocks()
@@ -559,7 +559,7 @@ describe('Workspace Invitation [invitationId] API Route', () => {
 
       expect(response2.status).toBe(307)
       expect(response2.headers.get('location')).toBe(
-        'https://test.sim.ai/workspace/workspace-456/home'
+        'https://test.github.com/tunacosgun/sim/workspace/workspace-456/home'
       )
     })
   })

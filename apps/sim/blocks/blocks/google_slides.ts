@@ -14,7 +14,7 @@ export const GoogleSlidesBlock: BlockConfig<GoogleSlidesResponse> = {
   authMode: AuthMode.OAuth,
   longDescription:
     'Integrate Google Slides into the workflow. Can read, write, create presentations, replace text, add slides, add images, get thumbnails, get page details, delete objects, duplicate objects, reorder slides, create tables, create shapes, and insert text.',
-  docsLink: 'https://docs.sim.ai/tools/google_slides',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/google_slides',
   category: 'tools',
   integrationType: IntegrationType.Documents,
   tags: ['google-workspace', 'document-processing', 'content-management'],

@@ -41,8 +41,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@simdotai',
-    creator: '@simdotai',
+    site: '@tunacosgun',
+    creator: '@tunacosgun',
     title: 'Sim — The AI Workspace | Build, Deploy & Manage AI Agents',
     description:
       'Sim is the open-source AI workspace where teams build, deploy, and manage AI agents. Connect 1,000+ integrations and every major LLM to create agents that automate real work.',

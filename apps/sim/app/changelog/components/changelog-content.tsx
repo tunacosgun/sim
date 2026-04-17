@@ -22,7 +22,7 @@ export default async function ChangelogContent() {
 
   try {
     const res = await fetch(
-      'https://api.github.com/repos/simstudioai/sim/releases?per_page=10&page=1',
+      'https://api.github.com/repos/tunacosgun/sim/releases?per_page=10&page=1',
       {
         headers: { Accept: 'application/vnd.github+json' },
         next: { revalidate: 3600 },
@@ -60,7 +60,7 @@ export default async function ChangelogContent() {
 
             <div className='mt-6 flex flex-wrap items-center gap-3 text-sm'>
               <Link
-                href='https://github.com/simstudioai/sim/releases'
+                href='https://github.com/tunacosgun/sim/releases'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='inline-flex items-center gap-2 rounded-[5px] border border-[var(--white)] bg-[var(--white)] px-[9px] py-[5px] text-[13.5px] text-black transition-colors hover:border-[#E0E0E0] hover:bg-[#E0E0E0]'
@@ -69,7 +69,7 @@ export default async function ChangelogContent() {
                 View on GitHub
               </Link>
               <Link
-                href='https://docs.sim.ai'
+                href='https://github.com/tunacosgun/sim'
                 className='inline-flex items-center gap-2 rounded-[5px] border border-[var(--landing-border-strong)] px-[9px] py-[5px] text-[13.5px] text-[var(--landing-text)] transition-colors hover:bg-[var(--landing-bg-elevated)]'
               >
                 <BookOpen className='h-4 w-4' />

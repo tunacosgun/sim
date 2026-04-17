@@ -10,7 +10,7 @@ export const GreptileBlock: BlockConfig<GreptileResponse> = {
   authMode: AuthMode.ApiKey,
   longDescription:
     'Query and search codebases using natural language with Greptile. Get AI-generated answers about your code, find relevant files, and understand complex codebases.',
-  docsLink: 'https://docs.sim.ai/tools/greptile',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/greptile',
   category: 'tools',
   integrationType: IntegrationType.DeveloperTools,
   tags: ['version-control', 'knowledge-base'],

@@ -308,10 +308,10 @@ export function DemoRequestModal({ children, theme = 'dark' }: DemoRequestModalP
                 <p className='mt-4 font-season text-[15px] text-[var(--text-secondary)] leading-7'>
                   Our team will be in touch soon. If you have any questions, please email us at{' '}
                   <a
-                    href='mailto:enterprise@sim.ai'
+                    href='mailto:enterprise@github.com/tunacosgun/sim'
                     className='text-[var(--text-primary)] underline underline-offset-2'
                   >
-                    enterprise@sim.ai
+                    enterprise@github.com/tunacosgun/sim
                   </a>
                   .
                 </p>

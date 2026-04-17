@@ -12,7 +12,7 @@ export const GoogleDocsBlock: BlockConfig<GoogleDocsResponse> = {
   authMode: AuthMode.OAuth,
   longDescription:
     'Integrate Google Docs into the workflow. Can read, write, and create documents.',
-  docsLink: 'https://docs.sim.ai/tools/google_docs',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/google_docs',
   category: 'tools',
   integrationType: IntegrationType.Documents,
   tags: ['google-workspace', 'document-processing', 'content-management'],

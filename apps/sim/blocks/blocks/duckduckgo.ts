@@ -9,7 +9,7 @@ export const DuckDuckGoBlock: BlockConfig<DuckDuckGoResponse> = {
   description: 'Search with DuckDuckGo',
   longDescription:
     'Search the web using DuckDuckGo Instant Answers API. Returns instant answers, abstracts, related topics, and more. Free to use without an API key.',
-  docsLink: 'https://docs.sim.ai/tools/duckduckgo',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/duckduckgo',
   category: 'tools',
   integrationType: IntegrationType.Search,
   tags: ['web-scraping', 'seo'],

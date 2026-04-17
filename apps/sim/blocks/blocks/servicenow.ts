@@ -10,7 +10,7 @@ export const ServiceNowBlock: BlockConfig<ServiceNowResponse> = {
   description: 'Create, read, update, and delete ServiceNow records',
   longDescription:
     'Integrate ServiceNow into your workflow. Create, read, update, and delete records in any ServiceNow table including incidents, tasks, change requests, users, and more.',
-  docsLink: 'https://docs.sim.ai/tools/servicenow',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/servicenow',
   category: 'tools',
   integrationType: IntegrationType.CustomerSupport,
   tags: ['customer-support', 'ticketing', 'incident-management'],

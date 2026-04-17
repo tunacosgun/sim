@@ -9,7 +9,7 @@ export const JinaBlock: BlockConfig<ReadUrlResponse | SearchResponse> = {
   authMode: AuthMode.ApiKey,
   longDescription:
     'Integrate Jina AI into the workflow. Search the web and get LLM-friendly results, or extract clean content from specific URLs with advanced parsing options.',
-  docsLink: 'https://docs.sim.ai/tools/jina',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/jina',
   category: 'tools',
   integrationType: IntegrationType.Search,
   tags: ['web-scraping', 'knowledge-base'],

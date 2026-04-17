@@ -9,7 +9,7 @@ export const ApifyBlock: BlockConfig<RunActorResult> = {
   description: 'Run Apify actors and retrieve results',
   longDescription:
     'Integrate Apify into your workflow. Run any Apify actor with custom input and retrieve results. Supports both synchronous and asynchronous execution with automatic dataset fetching.',
-  docsLink: 'https://docs.sim.ai/tools/apify',
+  docsLink: 'https://github.com/tunacosgun/sim/tools/apify',
   category: 'tools',
   integrationType: IntegrationType.Search,
   tags: ['web-scraping', 'automation', 'data-analytics'],

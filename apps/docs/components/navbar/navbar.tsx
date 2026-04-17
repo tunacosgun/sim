@@ -49,7 +49,7 @@ export function Navbar() {
             <LanguageDropdown />
             <ThemeToggle />
             <Link
-              href='https://sim.ai'
+              href='https://github.com/tunacosgun/sim'
               className='ml-1 flex items-center rounded-[8px] bg-[#33c482] px-2.5 py-1.5 text-[13px] text-white transition-colors duration-200 hover:bg-[#2DAC72]'
             >
               Get started
