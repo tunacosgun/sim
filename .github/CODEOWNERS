@@ -1,28 +1,28 @@
 # Copilot/Mothership chat streaming entrypoints and replay surfaces.
-/apps/sim/app/api/copilot/chat/ @simstudioai/mothership
-/apps/sim/app/api/copilot/confirm/ @simstudioai/mothership
-/apps/sim/app/api/copilot/chats/ @simstudioai/mothership
-/apps/sim/app/api/mothership/chat/ @simstudioai/mothership
-/apps/sim/app/api/mothership/chats/ @simstudioai/mothership
-/apps/sim/app/api/mothership/execute/ @simstudioai/mothership
-/apps/sim/app/api/v1/copilot/chat/ @simstudioai/mothership
+/apps/sim/app/api/copilot/chat/ @tunacosgun
+/apps/sim/app/api/copilot/confirm/ @tunacosgun
+/apps/sim/app/api/copilot/chats/ @tunacosgun
+/apps/sim/app/api/mothership/chat/ @tunacosgun
+/apps/sim/app/api/mothership/chats/ @tunacosgun
+/apps/sim/app/api/mothership/execute/ @tunacosgun
+/apps/sim/app/api/v1/copilot/chat/ @tunacosgun
 
 # Server-side stream orchestration, persistence, and protocol.
-/apps/sim/lib/copilot/chat/ @simstudioai/mothership
-/apps/sim/lib/copilot/async-runs/ @simstudioai/mothership
-/apps/sim/lib/copilot/request/ @simstudioai/mothership
-/apps/sim/lib/copilot/generated/ @simstudioai/mothership
-/apps/sim/lib/copilot/constants.ts @simstudioai/mothership
-/apps/sim/lib/core/utils/sse.ts @simstudioai/mothership
+/apps/sim/lib/copilot/chat/ @tunacosgun
+/apps/sim/lib/copilot/async-runs/ @tunacosgun
+/apps/sim/lib/copilot/request/ @tunacosgun
+/apps/sim/lib/copilot/generated/ @tunacosgun
+/apps/sim/lib/copilot/constants.ts @tunacosgun
+/apps/sim/lib/core/utils/sse.ts @tunacosgun
 
 # Stream-time tool execution, confirmations, resource persistence, and handlers.
-/apps/sim/lib/copilot/tool-executor/ @simstudioai/mothership
-/apps/sim/lib/copilot/tools/ @simstudioai/mothership
-/apps/sim/lib/copilot/persistence/ @simstudioai/mothership
-/apps/sim/lib/copilot/resources/ @simstudioai/mothership
+/apps/sim/lib/copilot/tool-executor/ @tunacosgun
+/apps/sim/lib/copilot/tools/ @tunacosgun
+/apps/sim/lib/copilot/persistence/ @tunacosgun
+/apps/sim/lib/copilot/resources/ @tunacosgun
 
 # Client-side stream consumption, hydration, and reconnect.
-/apps/sim/app/workspace/*/home/hooks/index.ts @simstudioai/mothership
-/apps/sim/app/workspace/*/home/hooks/use-chat.ts @simstudioai/mothership
-/apps/sim/app/workspace/*/home/hooks/use-file-preview-sessions.ts @simstudioai/mothership
-/apps/sim/hooks/queries/tasks.ts @simstudioai/mothership
+/apps/sim/app/workspace/*/home/hooks/index.ts @tunacosgun
+/apps/sim/app/workspace/*/home/hooks/use-chat.ts @tunacosgun
+/apps/sim/app/workspace/*/home/hooks/use-file-preview-sessions.ts @tunacosgun
+/apps/sim/hooks/queries/tasks.ts @tunacosgun

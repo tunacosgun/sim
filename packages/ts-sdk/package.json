@@ -33,7 +33,7 @@
     "automation",
     "typescript"
   ],
-  "author": "Sim",
+  "author": "Tunahan Coşgun <info@tunahancosgun.dev> & Duygu Durmuş <duygudurmus12@gmail.com> - Tunasoft Yazılım",
   "license": "Apache-2.0",
   "dependencies": {
     "node-fetch": "^3.3.2"
